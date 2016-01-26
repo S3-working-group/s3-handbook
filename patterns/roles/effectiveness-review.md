@@ -1,2 +1,0 @@
-# Effectiveness Review
-

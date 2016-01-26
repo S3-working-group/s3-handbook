@@ -1,2 +1,0 @@
-# Proposal Forming
-

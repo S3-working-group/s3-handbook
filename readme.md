@@ -65,7 +65,7 @@ The **patterns index** at `patterns/index.md` draws content from `/patterns/_ind
 {>>TODO: create and build all files described here. <<}
 {>>TODO: link index to changelog <<}
 
-Pattern groups indexes (e.g. `/patterns/navigation.md`) include a brief description (e.g. from `/patterns/_navigation-content.md`) and a table of contents (e.g. `/patterns/_navigation--toc.md`)
+Pattern groups indexes (e.g. `/patterns/navigation.md`) include a brief description (e.g. from `/patterns/_navigation--content.md`) and a table of contents (e.g. `/patterns/_navigation--toc.md`)
 
 ## Publishing the Handbook
 

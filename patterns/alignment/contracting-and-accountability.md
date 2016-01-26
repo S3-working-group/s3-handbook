@@ -1,2 +1,0 @@
-# Contracting And Accountability
-

@@ -1,2 +1,0 @@
-# Coordinator Role
-

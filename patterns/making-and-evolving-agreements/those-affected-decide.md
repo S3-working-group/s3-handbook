@@ -1,2 +1,0 @@
-# Those Affected Decide
-

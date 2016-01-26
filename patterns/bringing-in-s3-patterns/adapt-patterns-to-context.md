@@ -1,2 +1,0 @@
-# Adapt Patterns To Context
-

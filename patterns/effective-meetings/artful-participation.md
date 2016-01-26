@@ -1,2 +1,0 @@
-# Artful Participation
-

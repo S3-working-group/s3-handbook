@@ -1,2 +1,0 @@
-# Fractal Organization
-
