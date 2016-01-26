@@ -1,21 +1,27 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Sociocracy 3.0 Patterns Repository
+email: bernhard.bockelbrink@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The canonical list and definitions of Sociocracy 3.0 patterns, maintained by Bernhard Bockelbrink and James Priest.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://s3patterns.com" # the base hostname & protocol for your site
+twitter_username: sociocracy30
 
 # Build settings
 markdown: kramdown
+safe: true # required on Github pages (no plugins)
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "my-site"
+  -
+    scope:
+      path: "patterns"
+      type: "pages"
+    values:
+      layout: "patterns-repository" # overrides previous default layout
+      author: "Bernhard Bockelbrink"
