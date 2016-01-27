@@ -19,6 +19,33 @@ You can follow changes by looking at this repository's history on Github, or tak
 
 Content is stored as [MarkDown](http://daringfireball.net/projects/markdown) files with the extension `.md`. Markdown can be edited with any text editor, rendered to html, pdf, and latex with various apps on any relevant platform, and converted into countless[^not literally] other formats, e.g. epub, using [pandoc](https://github.com/jgm/pandoc).
 
+### Content files in this repository
+
+    .
+    ├── handbook
+    |   ├── img (link to ../patterns/img)
+    |   └── ...
+    ├── patterns (all patterns, groups, indexes and the changelog)
+    |   ├── img
+    |   ├── changelog.md
+    |   ├── index.md (automatically generated)
+    |   ├── index--master.md
+    |   ├── index--content.md
+    |   ├── index--groups--toc.md
+    |   ├── all_patterns.md
+    |   ├── <group>--index.md
+    |   ├── <group>--content.md
+    |   ├── <group>--master.md
+    |   ├── <group>--toc.md
+    |   └── <pattern-name>.md
+    ├── _includes
+    ├── _layouts
+    ├── index.md (automatically generated)
+    ├── index--master.md
+    ├── index--content.md
+    └── README.md  (this file)
+
+
 
 ### Publishing
 
@@ -26,7 +53,6 @@ The **handbook** is compiled from many individual Markdown files using MultiMark
 
 The **web version** is generated thorugh Jekyll, a static site generator which can also be used to publish to Gihub pages.
 
-{>>TODO: exclude scripts in config.yaml <<}
 
 ## Handbook Headline Structure
 
@@ -43,9 +69,7 @@ In order to keep the include files, stylesheets etc. of the handbook out of the 
 
 **Pattern descriptions** are created in the folder `/patterns/` as individual Markdown files. 
 
-{>>TODO: update file generator for flat structure <<}
-
-Each **pattern group** has a brief description in a file prefixed with an underscore, and suffixed with `--content`, e.g. `/patterns/_navigation_content.md`. 
+Each **pattern group** has a brief description in a file prefixed with an underscore, and suffixed with `--content`, e.g. `/patterns/_navigation--content.md`. 
 
 A **changelog** is maintained in `/patterns/_changelog.md` and integrated both in the appendix of the handbook and as a subpage of the website.
 
@@ -53,19 +77,17 @@ A content for the **root level index file** is kept in `/_index--content.md` and
 
 **Images** are stored in */patterns/img/* and must be included using relative paths.
 
+
 ## Creating the HTML Version
 
-There's a Github pages **intro page** at `/index.md`, compiled from `/_index--content.md`, and a full table of contents from `/_index--toc.md`
+In the index files, we need to separate web TOCs from content, because when building the handbook these TOCs would be meaninless. Due to the fact that Jekyll requires all includes to be located in an include folder, we need a pre-build step where all the indexes are compiled through [MultiMarkdown transclusion](http://fletcher.github.io/MultiMarkdown-5/transclusion.html)
 
-{>>TODO: build skeleton with includes, create files <<}
-{>>TODO: include changelog in root index <<}
+There's a Github pages **main index page** at `/index.md`, compiled using `index--master.md` from `/index--content.md` and a full table of contents from `/index--toc.md`
 
-The **patterns index** at `patterns/index.md` draws content from `/patterns/_index--content.md`, links to all groups from `/patterns/_index_groups_toc.md` and a complete full alphabetical index of all patterns from `/patterns/_full_index.md`.
+The **patterns index** at `patterns/index.md` is built using `patterns--indexmaster.md` to draw content from `/patterns/index--content.md`, links to all groups from `/patterns/index--groups--toc.md` and a complete full alphabetical index of all patterns from `/patterns/all_patterns.md`.
 
-{>>TODO: create and build all files described here. <<}
-{>>TODO: link index to changelog <<}
+**Pattern group indexes** `/patterns/<group>--index.md`) include a brief description from `/patterns/<group>--content.md`) and a table of contents from `/patterns/<group>--toc.md`). They are compiled from `<group>--master.md`.
 
-Pattern groups indexes (e.g. `/patterns/navigation.md`) include a brief description (e.g. from `/patterns/_navigation--content.md`) and a table of contents (e.g. `/patterns/_navigation--toc.md`)
 
 ## Publishing the Handbook
 
@@ -77,7 +99,7 @@ All files relevant to building the handbook are maintained in `/_compile_handboo
 
 The **handbook** is exported to **S3-patterns-handbook.pdf** and **S3-patterns-handbook.epub** in the root folder of the project.
 
-{>>TODO: create document and html indices: toc + text <<}
+{>>TODO: create document indices: toc + text <<}
 
 
 ## Dependencies
@@ -88,11 +110,10 @@ The **handbook** is exported to **S3-patterns-handbook.pdf** and **S3-patterns-h
 ## To Do
 
 {>>TODO: create template with style to limit image width to 100% <<}
-{>>TODO: remove all unnecessary jekyll default stuff <<}
-{>>TODO:  update or remove index.html <<}
+{>>TODO: remove unnecessary templates and includes <<}
 {>>TODO: include footer with (c) and license, and navigation <<}
 {>>TODO: add a second build for popup windows <<}
-{>>TODO: move source files to source folder? <<}
+{>>TODO: add license to footer include <<}
 
 
 ## Criteria and Considerations for the Technical Implementation

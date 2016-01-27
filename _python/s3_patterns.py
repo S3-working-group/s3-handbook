@@ -66,7 +66,7 @@ s3_patterns = {
         "peach organization",
         "double-linked hierarchy",
         "helping circle",
-        "role: representative",
+        "representative",
         "coordination circle",
     ],
     "alignment": [
