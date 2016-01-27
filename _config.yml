@@ -3,8 +3,10 @@ title: Sociocracy 3.0 Patterns Repository
 email: bernhard.bockelbrink@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The canonical list and definitions of Sociocracy 3.0 patterns, maintained by Bernhard Bockelbrink and James Priest.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://s3-working-group.github.io/s3patterns"
+
+baseurl: "/s3patterns/" # the subpath of your site, e.g. /blog
+url: "http://s3-working-group.github.io" # the base hostname & protocol for your site
+
 twitter_username: sociocracy30
 
 # Build settings
@@ -39,6 +41,8 @@ exclude:      [
   
   "all-patterns.md",
   "index--groups--toc.md",
+  "index--content.md",
+  "index--master.md",
 
   # auto-generated from here on:
   "alignment--content.md",
