@@ -12,7 +12,7 @@ As more people and organizations started picking up 3, the need for a handbook w
 
 The easiest way to download the handbooks is either through the [S3 website](http://sociocracy30.org) or through Github. 
 
-You can follow changes by looking at this repository's history on Github, or taking a look at the changelog in the handbook or in **/patterns/changelog.md**
+You can follow changes by looking at this repository's history on Github, or taking a look at the changelog in the handbook or in `content/changelog.md`
 
 
 ## Formats and Files
@@ -23,9 +23,9 @@ Content is stored as [MarkDown](http://daringfireball.net/projects/markdown) fil
 
     .
     ├── handbook
-    |   ├── img (link to ../patterns/img)
+    |   ├── img (link to ../content/img)
     |   └── ...
-    ├── patterns (all patterns, groups, indexes and the changelog)
+    ├── content (all patterns, groups, indexes and the changelog)
     |   ├── img
     |   ├── changelog.md
     |   ├── index.md (automatically generated)
@@ -66,26 +66,24 @@ In order to keep the include files, stylesheets etc. of the handbook out of the 
 
 ### Content files
 
-**Pattern descriptions** are created in the folder `/patterns/` as individual Markdown files. 
+**Pattern descriptions** are created in the folder `/content/` as individual Markdown files. 
 
-Each **pattern group** has a brief description in a file prefixed with an underscore, and suffixed with `--content`, e.g. `/patterns/_navigation--content.md`. 
+Each **pattern group** has a brief description in a file prefixed with an underscore, and suffixed with `--content`, e.g. `_navigation--content.md`. 
 
-A **changelog** is maintained in `/patterns/_changelog.md` and integrated both in the appendix of the handbook and as a subpage of the website.
+A **changelog** is maintained in `_changelog.md` and integrated both in the appendix of the handbook and as a subpage of the website.
 
-A content for the **root level index file** is kept in `/_index--content.md` and serves as the Github intro page, content for the **patterns index page** can be found in `/patterns/_index--content.md`
+A content for the **root level index file** is kept in `/_index--content.md` and serves as the Github intro page, content for the **patterns index page** can be found in `_index--content.md`
 
-**Images** are stored in */patterns/img/* and must be included using relative paths.
+**Images** are stored in */content/img/* and must be included using relative paths.
 
 
 ## Creating the HTML Version
 
 In the index files, we need to separate web TOCs from content, because when building the handbook these TOCs would be meaninless. Due to the fact that Jekyll requires all includes to be located in an include folder, we need a pre-build step where all the indexes are compiled through [MultiMarkdown transclusion](http://fletcher.github.io/MultiMarkdown-5/transclusion.html)
 
-There's a Github pages **main index page** at `/index.md`, compiled using `index--master.md` from `/index--content.md` and a full table of contents from `/index--toc.md`
+The **patterns index** at `index.md` is built using `patterns--index--master.md` to draw content from `index--content.md`, links to all groups from `index--groups--toc.md` and a complete full alphabetical index of all patterns from `all-patterns.md`.
 
-The **patterns index** at `patterns/index.md` is built using `patterns--indexmaster.md` to draw content from `/patterns/index--content.md`, links to all groups from `/patterns/index--groups--toc.md` and a complete full alphabetical index of all patterns from `/patterns/all-patterns.md`.
-
-**Pattern group indexes** `/patterns/<group>--index.md`) include a brief description from `/patterns/<group>--content.md`) and a table of contents from `/patterns/<group>--toc.md`). They are compiled from `<group>--master.md`.
+**Pattern group indexes** `<group>--index.md`) include a brief description from `<group>--content.md`) and a table of contents from `<group>--toc.md`). They are compiled from `<group>--master.md`.
 
 
 ## Publishing the Handbook
@@ -128,8 +126,6 @@ On OS-X, ruby and python are already installed. I suggest installing the rest of
 {>>TODO: add zurb foundation<<}
 
 {>>TODO: add a second build for popup windows <<}
-{>>TODO: setup github page <<}
-{>>TODO: setup all links and includes to work for http://s3-working-group.github.io/s3patterns/ <<}
 
 
 ## Criteria and Considerations for the Technical Implementation

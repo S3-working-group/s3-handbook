@@ -35,9 +35,9 @@ def front_matter(fp, title=''):
     fp.write('---\n\n')
 
 
-def build_toc_files(args, patterns):
+def build_toc_files(args, patterns, root='content-tmp'):
     """(Re-)build all includes with tables of contents."""
-    create_directory('patterns')
+    create_directory(root)
 
     def write_link(fp, link_title, link_path):
         fp.write("* [%s](%s)\n" % (link_title, link_path))
@@ -55,41 +55,44 @@ def build_toc_files(args, patterns):
             fp.write('\n{{%s--content.md}}\n' % gpath)
             fp.write('\n{{%s--toc.md}}\n' % gpath)                
     
-    # create /_toc_include.md to be included in the main index
-    write_toc_include(patterns, 'index--toc.md', '/patterns/') # root patterns index
-    write_toc_include(patterns, os.path.join('patterns', 'all-patterns.md')) # patterns index
-    write_toc_include(sorted(s3_patterns.keys()), os.path.join('patterns', 'index--groups--toc.md')) # groups TOC
-
-    if args.verbose:
-        print "\ncopy this to the group indexes section of generate_index_files.sh\n"
-
+    write_toc_include(patterns, os.path.join(root, 'all-patterns.md')) # patterns index
+    write_toc_include(sorted(s3_patterns.keys()), os.path.join(root, 'index--groups--toc.md')) # groups TOC
 
     # build a TOC for each group
     for group in sorted(s3_patterns.keys()):
-        write_toc_include(sorted(s3_patterns[group]), os.path.join('patterns', '%s--toc.md' % make_pathname(group)))
-        write_group_master('patterns', group)
-        if args.verbose:
-            # output multimardown command to create build group index files
-            print 'multimarkdown --to=mmd --output=patterns/%(group)s--index.md patterns/%(group)s--master.md' % {'group': make_pathname(group)}
+        write_toc_include(sorted(s3_patterns[group]), os.path.join(root, '%s--toc.md' % make_pathname(group)))
+        write_group_master(root, group)
 
 
-def build_skeleton_files(args, patterns, groups):
+def generate_index_files():
+
+    print "\ncopy this to the group indexes section of generate-index-files.sh\n"
+    print "# patterns index"
+    print 'multimarkdown --to=mmd --output=index.md index--master.md\n'
+
+    print "# group indexes"
+    for group in sorted(s3_patterns.keys()):
+        # output multimarkdown command to create build group index files
+        print 'multimarkdown --to=mmd --output=%(group)s--index.md %(group)s--master.md' % {'group': make_pathname(group)}        
+
+
+def build_skeleton_files(args, patterns, groups, root='content-tmp'):
     """Build skeleton content files for groups and patterns."""
     
-    create_directory('patterns')
+    create_directory(root)
 
-    def make_file(folder, filename_root, title_root):
-        with file(os.path.join(folder, '%s.md' % make_pathname(filename_root)), 'w+') as fp:
+    def make_file(filename_root, title_root):
+        with file(os.path.join(root, '%s.md' % make_pathname(filename_root)), 'w+') as fp:
             front_matter(fp, make_title(title_root))
             fp.write('\n\n...\n')
 
     # create patterns files
     for pattern in patterns:
-        make_file('patterns', pattern, pattern)
+        make_file(pattern, pattern)
 
     # create group content files
     for group in groups:
-        make_file('patterns', '%s--content' % group, group)
+        make_file('%s--content' % group, group)
 
 
 def list_excluded_files(args, groups):
@@ -97,14 +100,10 @@ def list_excluded_files(args, groups):
     def _print(name, suffix):
         print '\t"%s--%s.md",' % (name, suffix)
 
-    _print('index', 'content')
-    _print('index', 'master')
-    _print('index', 'toc')
-    _print(os.path.join('/patterns', 'index'), 'master')
-    for group in groups:
+    for group in sorted(groups):
         group = make_pathname(group)
         for suffix in ['content', 'toc', 'master']:
-            _print(os.path.join('/patterns', group), suffix)
+            _print(group, suffix)
 
 
 if __name__ == "__main__":
@@ -118,10 +117,14 @@ if __name__ == "__main__":
                         help='build skeleton content files for groups and patterns.')
     parser.add_argument('--excluded', action='store_true',
                         help='Create exclude list for _config.yaml.')
+    parser.add_argument('--index', action='store_true',
+                        help='Output commands for generate-index-files.')
+
     args = parser.parse_args()
 
     # init
     patterns = get_all_patterns()
+    root = 'content'
 
     if args.toc:
         build_toc_files(args, patterns)
@@ -131,5 +134,8 @@ if __name__ == "__main__":
 
     if args.excluded:
         list_excluded_files(args, s3_patterns.keys())
+
+    if args.index:
+        generate_index_files()
 
 
