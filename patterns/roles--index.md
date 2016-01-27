@@ -1,17 +1,17 @@
 ---
-title: roles
+title: Roles
 ---
 
 
-# Roles
+
 
 ...
 
 
-* [Development Plan](development-plan.md)
-* [Effectiveness Review](effectiveness-review.md)
-* [Role Descriptions](role-descriptions.md)
-* [Role Selection](role-selection.md)
-* [Support Roles](support-roles.md)
+* [Development Plan](development-plan.html)
+* [Effectiveness Review](effectiveness-review.html)
+* [Role Descriptions](role-descriptions.html)
+* [Role Selection](role-selection.html)
+* [Support Roles](support-roles.html)
 
 

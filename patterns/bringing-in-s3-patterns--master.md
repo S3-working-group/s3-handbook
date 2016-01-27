@@ -1,5 +1,5 @@
 ---
-title: bringing in S3 patterns
+title: Bringing In S3 Patterns
 ---
 
 

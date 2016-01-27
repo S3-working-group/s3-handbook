@@ -1,26 +1,26 @@
 ---
-title: making and evolving agreements
+title: Making And Evolving Agreements
 ---
 
 
-# Making And Evolving Agreements
+
 
 ...
 
 
-* [Agreements](agreements.md)
-* [Circle](circle.md)
-* [Consent Decision Making](consent-decision-making.md)
-* [Deliverables](deliverables.md)
-* [Driver](driver.md)
-* [Evaluating Decisions](evaluating-decisions.md)
-* [Evaluation Criteria](evaluation-criteria.md)
-* [Intended Outcome](intended-outcome.md)
-* [Objections](objections.md)
-* [Proposal Forming](proposal-forming.md)
-* [Qualifying Drivers](qualifying-drivers.md)
-* [Resolve Objections](resolve-objections.md)
-* [Strategy](strategy.md)
-* [Those Affected Decide](those-affected-decide.md)
+* [Agreements](agreements.html)
+* [Circle](circle.html)
+* [Consent Decision Making](consent-decision-making.html)
+* [Deliverables](deliverables.html)
+* [Driver](driver.html)
+* [Evaluating Decisions](evaluating-decisions.html)
+* [Evaluation Criteria](evaluation-criteria.html)
+* [Intended Outcome](intended-outcome.html)
+* [Objections](objections.html)
+* [Proposal Forming](proposal-forming.html)
+* [Qualifying Drivers](qualifying-drivers.html)
+* [Resolve Objections](resolve-objections.html)
+* [Strategy](strategy.html)
+* [Those Affected Decide](those-affected-decide.html)
 
 

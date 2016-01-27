@@ -1,5 +1,5 @@
 ---
-title: effective meetings
+title: Effective Meetings
 ---
 
 

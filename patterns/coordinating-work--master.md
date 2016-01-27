@@ -1,5 +1,5 @@
 ---
-title: coordinating work
+title: Coordinating Work
 ---
 
 

@@ -2,6 +2,6 @@
 title: Domains
 ---
 
-# Domains
+
 
 ...

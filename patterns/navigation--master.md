@@ -1,5 +1,5 @@
 ---
-title: navigation
+title: Navigation
 ---
 
 

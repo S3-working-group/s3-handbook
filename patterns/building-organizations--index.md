@@ -1,17 +1,17 @@
 ---
-title: building organizations
+title: Building Organizations
 ---
 
 
-# Building Organizations
+
 
 ...
 
 
-* [Align Flow](align-flow.md)
-* [Domains](domains.md)
-* [Open Systems](open-systems.md)
-* [Organizing In Circles](organizing-in-circles.md)
-* [Subset Drivers](subset-drivers.md)
+* [Align Flow](align-flow.html)
+* [Domains](domains.html)
+* [Open Systems](open-systems.html)
+* [Organizing In Circles](organizing-in-circles.html)
+* [Subset Drivers](subset-drivers.html)
 
 

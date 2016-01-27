@@ -2,6 +2,6 @@
 title: Deliverables
 ---
 
-# Deliverables
+
 
 ...

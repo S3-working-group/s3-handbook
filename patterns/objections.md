@@ -2,6 +2,6 @@
 title: Objections
 ---
 
-# Objections
+
 
 ...

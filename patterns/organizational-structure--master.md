@@ -1,5 +1,5 @@
 ---
-title: organizational structure
+title: Organizational Structure
 ---
 
 

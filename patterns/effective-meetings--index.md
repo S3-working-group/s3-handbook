@@ -1,20 +1,20 @@
 ---
-title: effective meetings
+title: Effective Meetings
 ---
 
 
-# Effective Meetings
+
 
 ...
 
 
-* [S3 Facilitator](s3-facilitator.md)
-* [Artful Participation](artful-participation.md)
-* [Logbook](logbook.md)
-* [Logbook Keeper](logbook-keeper.md)
-* [Meeting Facilitation](meeting-facilitation.md)
-* [Meetingevaluation](meetingevaluation.md)
-* [Rounds](rounds.md)
-* [Secretary](secretary.md)
+* [S3 Facilitator](s3-facilitator.html)
+* [Artful Participation](artful-participation.html)
+* [Logbook](logbook.html)
+* [Logbook Keeper](logbook-keeper.html)
+* [Meeting Facilitation](meeting-facilitation.html)
+* [Meetingevaluation](meetingevaluation.html)
+* [Rounds](rounds.html)
+* [Secretary](secretary.html)
 
 

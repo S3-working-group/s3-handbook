@@ -2,6 +2,6 @@
 title: Agreements
 ---
 
-# Agreements
+
 
 ...

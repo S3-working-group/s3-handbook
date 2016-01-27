@@ -1,5 +1,5 @@
 ---
-title: building organizations
+title: Building Organizations
 ---
 
 

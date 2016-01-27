@@ -2,6 +2,6 @@
 title: Bylaws
 ---
 
-# Bylaws
+
 
 ...

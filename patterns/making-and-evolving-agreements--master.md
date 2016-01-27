@@ -1,5 +1,5 @@
 ---
-title: making and evolving agreements
+title: Making And Evolving Agreements
 ---
 
 
