@@ -2,6 +2,7 @@
 
 This is the source files of the canonical Sociocracy 3.0 patterns repository.
 
+The web version can be viewed at [http://s3-working-group.github.io/s3patterns//](http://s3-working-group.github.io/s3patterns//)
 
 ## Driver
 
@@ -96,12 +97,7 @@ Also, jekyll requires links to point to html files, so the preprocessor for the 
 
 For the future, we probably will abandon jekyll in favour of a more elegant and less opinionated static site generator.
 
-{>>TODO: create and test epub buildscript, add styles <<}
-
-
 The **handbook** is exported to **S3-patterns-handbook.pdf** and **S3-patterns-handbook.epub** in the root folder of the project.
-
-{>>TODO: create document indices: toc + text <<}
 
 
 ## Dependencies
@@ -112,6 +108,7 @@ Using all the tools in the repository requires:
 * python (>2.5)
 * pandoc
 * multimarkdown commandline
+* a LaTex compiler
 
 On OS-X, ruby and python are already installed. I suggest installing the rest of the dependencies through [homebrew](http://brew.sh/).
 
