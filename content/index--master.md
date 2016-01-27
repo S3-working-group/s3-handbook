@@ -1,5 +1,5 @@
 ---
-title: The S3 Patterns
+title: The S3 Patterns Repository
 ---
   
 {{index--content.md}}
@@ -15,5 +15,4 @@ title: The S3 Patterns
 ## Alphabetical List of All Patterns
 
 {{all-patterns.md}}
-
 

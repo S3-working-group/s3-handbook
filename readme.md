@@ -125,8 +125,12 @@ On OS-X, ruby and python are already installed. I suggest installing the rest of
 
 {>>TODO: create template with style to limit image width to 100% <<}
 {>>TODO: add fonts etc to styles <<}
+{>>TODO: add zurb foundation<<}
+
 {>>TODO: add a second build for popup windows <<}
 {>>TODO: setup github page <<}
+{>>TODO: setup all links and includes to work for http://s3-working-group.github.io/s3patterns/ <<}
+
 
 ## Criteria and Considerations for the Technical Implementation
 
