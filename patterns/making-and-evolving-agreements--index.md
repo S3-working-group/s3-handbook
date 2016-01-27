@@ -1,4 +1,22 @@
 
-{{making and evolving agreements--content.md}}
+# Making And Evolving Agreements
 
-{{making and evolving agreements--toc.md}}
+...
+
+
+	* [Agreements](agreements.md)
+	* [Circle](circle.md)
+	* [Consent Decision Making](consent-decision-making.md)
+	* [Deliverables](deliverables.md)
+	* [Driver](driver.md)
+	* [Evaluating Decisions](evaluating-decisions.md)
+	* [Evaluation Criteria](evaluation-criteria.md)
+	* [Intended Outcome](intended-outcome.md)
+	* [Objections](objections.md)
+	* [Proposal Forming](proposal-forming.md)
+	* [Qualifying Drivers](qualifying-drivers.md)
+	* [Resolve Objections](resolve-objections.md)
+	* [Strategy](strategy.md)
+	* [Those Affected Decide](those-affected-decide.md)
+
+

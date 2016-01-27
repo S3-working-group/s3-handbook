@@ -1,12 +1,3 @@
-# The S3 Patterns Repository
-
-
-This is the canonical list of Sociocracy 3.0 patterns.
-
-[Changelog](patterns/changelog.md)
-
-## Index of all patterns
-
 	* [S3 Facilitator](/patterns/s3-facilitator.md)
 	* [Adapt Patterns To Context](/patterns/adapt-patterns-to-context.md)
 	* [Adopt S3 Principles](/patterns/adopt-s3-principles.md)
@@ -72,9 +63,3 @@ This is the canonical list of Sociocracy 3.0 patterns.
 	* [Those Affected Decide](/patterns/those-affected-decide.md)
 	* [Transparent Salary](/patterns/transparent-salary.md)
 	* [Visualize Work](/patterns/visualize-work.md)
-
-
-
-## License 
-
-This work by Bernhard Bockelbrink and James Priest is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/).
