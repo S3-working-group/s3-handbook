@@ -11,6 +11,47 @@ twitter_username: sociocracy30
 markdown: kramdown
 safe: true # required on Github pages (no plugins)
 
+
+exclude:      [
+  "build-handbook.sh", 
+  "build-site.sh", 
+  "generate_index_files.sh",
+  "_python", "README.md",
+
+  # auto-generated from here:
+  "index--content.md",
+  "index--master.md",
+  "index--toc.md",
+  "/patterns/index--master.md",
+  "/patterns/effective-meetings--content.md",
+  "/patterns/effective-meetings--toc.md",
+  "/patterns/effective-meetings--master.md",
+  "/patterns/building-organizations--content.md",
+  "/patterns/building-organizations--toc.md",
+  "/patterns/building-organizations--master.md",
+  "/patterns/making-and-evolving-agreements--content.md",
+  "/patterns/making-and-evolving-agreements--toc.md",
+  "/patterns/making-and-evolving-agreements--master.md",
+  "/patterns/bringing-in-s3-patterns--content.md",
+  "/patterns/bringing-in-s3-patterns--toc.md",
+  "/patterns/bringing-in-s3-patterns--master.md",
+  "/patterns/roles--content.md",
+  "/patterns/roles--toc.md",
+  "/patterns/roles--master.md",
+  "/patterns/coordinating-work--content.md",
+  "/patterns/coordinating-work--toc.md",
+  "/patterns/coordinating-work--master.md",
+  "/patterns/navigation--content.md",
+  "/patterns/navigation--toc.md",
+  "/patterns/navigation--master.md",
+  "/patterns/organizational-structure--content.md",
+  "/patterns/organizational-structure--toc.md",
+  "/patterns/organizational-structure--master.md",
+  "/patterns/alignment--content.md",
+  "/patterns/alignment--toc.md",
+  "/patterns/alignment--master.md",
+]
+
 defaults:
   -
     scope:
