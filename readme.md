@@ -142,7 +142,7 @@ On OS-X, ruby and python are already installed. I suggest installing the rest of
 
 ## Drafts and Collaboration
 
-We publish the skeleton site with empty pages for each pattern and pattern group. A copy of the skeleton site is placed in dropbox, al files are suffixed with "--draft", we copy all existing texts into that skeleton. As soon as we finish a releasable version of a pattern, we remove the draft suffix, merge the changes into the repository and re-publish. 
+We publish the skeleton site with empty pages for each pattern and pattern group. A copy of the skeleton site is placed in dropbox, all files are suffixed with "--draft", we copy all existing texts into that skeleton. As soon as we finish a releasable version of a pattern, we remove the draft suffix, merge the changes into the repository and re-publish. 
 
 Updates to existing patterns are created in the dropbox copy and then merged back.
 
