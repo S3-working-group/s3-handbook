@@ -1,5 +1,18 @@
 #!/usr/bin/env python
 
+handbook_group_order = [
+
+    "making and evolving agreements",
+    "navigation",
+    "effective meetings",
+    "coordinating work",
+    "building organizations",
+    "roles",
+    "organizational structure",
+    "bringing in S3 patterns",
+    "alignment",
+]
+
 s3_patterns = {
     "alignment": [
         "adopt S3 principles",
