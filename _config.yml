@@ -8,7 +8,7 @@ url: "http://s3-working-group.github.io/s3patterns/"
 twitter_username: sociocracy30
 
 # Build settings
-source:   ./content
+source:   .
 destination:  ./_site
 layouts_dir:  ./_layouts
 includes_dir: ./_includes
@@ -40,8 +40,8 @@ exclude:      [
   "all-patterns.md",
   "index--groups--toc.md",
 
-  # auto-generated from here:
-    "alignment--content.md",
+  # auto-generated from here on:
+  "alignment--content.md",
   "alignment--toc.md",
   "alignment--master.md",
   "bringing-in-s3-patterns--content.md",
