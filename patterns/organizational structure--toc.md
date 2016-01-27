@@ -7,5 +7,5 @@
 	* [Helping Circle](helping-circle.md)
 	* [Nested Circle](nested-circle.md)
 	* [Peach Organization](peach-organization.md)
-	* [Role: Representative](role:-representative.md)
+	* [Representative](representative.md)
 	* [Service Circle](service-circle.md)
