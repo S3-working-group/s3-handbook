@@ -32,7 +32,7 @@ Content is stored as [MarkDown](http://daringfireball.net/projects/markdown) fil
     |   ├── index--master.md
     |   ├── index--content.md
     |   ├── index--groups--toc.md
-    |   ├── all_patterns.md
+    |   ├── all-patterns.md
     |   ├── <group>--index.md
     |   ├── <group>--content.md
     |   ├── <group>--master.md
@@ -83,14 +83,21 @@ In the index files, we need to separate web TOCs from content, because when buil
 
 There's a Github pages **main index page** at `/index.md`, compiled using `index--master.md` from `/index--content.md` and a full table of contents from `/index--toc.md`
 
-The **patterns index** at `patterns/index.md` is built using `patterns--indexmaster.md` to draw content from `/patterns/index--content.md`, links to all groups from `/patterns/index--groups--toc.md` and a complete full alphabetical index of all patterns from `/patterns/all_patterns.md`.
+The **patterns index** at `patterns/index.md` is built using `patterns--indexmaster.md` to draw content from `/patterns/index--content.md`, links to all groups from `/patterns/index--groups--toc.md` and a complete full alphabetical index of all patterns from `/patterns/all-patterns.md`.
 
 **Pattern group indexes** `/patterns/<group>--index.md`) include a brief description from `/patterns/<group>--content.md`) and a table of contents from `/patterns/<group>--toc.md`). They are compiled from `<group>--master.md`.
+
 
 
 ## Publishing the Handbook
 
 All files relevant to building the handbook are maintained in `/_compile_handbook/`, e.g. styles, master documents. The handbook is compiled form the handbook master file file _handbook-master.md to pdf using the [MultiMarkdown](http://fletcherpenney.net/multimarkdown/) commandline and LaTex, and to epub through pandoc. 
+
+For some strange reason jekyll requires each markdown document to contain what they call "front matter" at the very beginning, a section of settings delimited with an opening and closing `---`. Otherwise Jekyll refuses to render to html. For compiling the handbook, we need a preprocessor to remove the front matter. For the future, we probably will abandon jekyll in favour of a more elegant and less opinionated static site generator.
+
+{>>TODO: add front matter to all pages <<}
+
+{>>TODO: copy files for building the handbook, and remove front matter <<}
 
 {>>TODO: create handbook master <<}
 {>>TODO: create and test pdf buildscript for LaTeX, add styles <<}
@@ -115,12 +122,11 @@ On OS-X, ruby and python are already installed. I suggest installing the rest of
 
 ## To Do
 
-{>>TODO: make sure md pages are rendered to html <<}
 {>>TODO: create template with style to limit image width to 100% <<}
 {>>TODO: remove unnecessary templates and includes <<}
 {>>TODO: include footer with (c) and license, and navigation <<}
 {>>TODO: add a second build for popup windows <<}
-
+{>>TODO: setup github page <<}
 
 ## Criteria and Considerations for the Technical Implementation
 
