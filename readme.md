@@ -33,7 +33,7 @@ Content is stored as [MarkDown](http://daringfireball.net/projects/markdown) fil
     |   ├── index--content.md
     |   ├── index--groups--toc.md
     |   ├── all-patterns.md
-    |   ├── <group>--index.md
+    |   ├── <group>.md
     |   ├── <group>--content.md
     |   ├── <group>--master.md
     |   ├── <group>--toc.md
@@ -66,15 +66,15 @@ In order to keep the include files, stylesheets etc. of the handbook out of the 
 
 ### Content files
 
-**Pattern descriptions** are created in the folder `/content/` as individual Markdown files. 
+**Pattern descriptions** are created in the root folder as individual Markdown files. 
 
-Each **pattern group** has a brief description in a file prefixed with an underscore, and suffixed with `--content`, e.g. `_navigation--content.md`. 
+Each **pattern group** has a brief description in a file prefixed with an underscore, and suffixed with `--content`, e.g. `alignment--content.md`. 
 
-A **changelog** is maintained in `_changelog.md` and integrated both in the appendix of the handbook and as a subpage of the website.
+A **changelog** is maintained in `changelog.md` and integrated both in the appendix of the handbook and as a subpage of the website.
 
-A content for the **root level index file** is kept in `/_index--content.md` and serves as the Github intro page, content for the **patterns index page** can be found in `_index--content.md`
+Content for the **patterns index page** can be found in `index--content.md`
 
-**Images** are stored in */content/img/* and must be included using relative paths.
+**Images** are stored in `img` and must be included using relative paths.
 
 
 ## Creating the HTML Version
@@ -120,12 +120,6 @@ On OS-X, ruby and python are already installed. I suggest installing the rest of
 
 
 ## To Do
-
-{>>TODO: create template with style to limit image width to 100% <<}
-{>>TODO: add fonts etc to styles <<}
-{>>TODO: add zurb foundation<<}
-
-{>>TODO: add a second build for popup windows <<}
 
 
 ## Criteria and Considerations for the Technical Implementation
