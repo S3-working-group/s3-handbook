@@ -7,7 +7,7 @@ import codecs
 import os
 
 
-IMG_TEMPLATE = '![](/static-images/{0}'
+IMG_TEMPLATE = '![]({0}'
 
 
 class LineWriter(object):
