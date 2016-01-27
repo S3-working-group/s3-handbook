@@ -96,11 +96,8 @@ Also, jekyll requires links to point to html files, so the preprocessor for the 
 
 For the future, we probably will abandon jekyll in favour of a more elegant and less opinionated static site generator.
 
-{>>TODO: copy files for building the handbook, and remove front matter <<}
-
-{>>TODO: create handbook master <<}
-{>>TODO: create and test pdf buildscript for LaTeX, add styles <<}
 {>>TODO: create and test epub buildscript, add styles <<}
+
 
 The **handbook** is exported to **S3-patterns-handbook.pdf** and **S3-patterns-handbook.epub** in the root folder of the project.
 
