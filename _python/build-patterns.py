@@ -68,12 +68,12 @@ def generate_index_files(root='content'):
 
     print "\ncopy this to the group indexes section of generate-index-files.sh\n"
     print "# patterns index"
-    print 'multimarkdown --to=mmd --output=%(root)s/index.md %(root)s/index--master.md\n' % {'root': root}
+    print 'multimarkdown --to=mmd --output=index.md index--master.md\n'
 
     print "# group indexes"
     for group in sorted(s3_patterns.keys()):
         # output multimarkdown command to create build group index files
-        print 'multimarkdown --to=mmd --output=%(group)s--index.md %(group)s--master.md' % {'group': os.path.join(root, make_pathname(group))}        
+        print 'multimarkdown --to=mmd --output=%(group)s--index.md %(group)s--master.md' % {'group': make_pathname(group)}        
 
 
 def build_skeleton_files(args, patterns, groups, root='content-tmp'):
