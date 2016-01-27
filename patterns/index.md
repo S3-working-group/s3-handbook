@@ -2,16 +2,23 @@
 title: The S3 Patterns
 ---
   
-# The S3 Patterns 
-
 {{index--content.md}}
 
-[Changelog](changelog.md)
+[Changelog](changelog.html)
 
 
 ## Pattern Groups
 
-{{index--groups-toc.md}}
+* [Alignment](alignment.html)
+* [Bringing In S3 Patterns](bringing-in-s3-patterns.html)
+* [Building Organizations](building-organizations.html)
+* [Coordinating Work](coordinating-work.html)
+* [Effective Meetings](effective-meetings.html)
+* [Making And Evolving Agreements](making-and-evolving-agreements.html)
+* [Navigation](navigation.html)
+* [Organizational Structure](organizational-structure.html)
+* [Roles](roles.html)
+
 
 
 ## Alphabetical List of All Patterns

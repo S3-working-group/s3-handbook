@@ -2,11 +2,11 @@
 title: The S3 Patterns Repository
 ---
 
-# The S3 Patterns Repository
-
 {{index--content.md}}
 
-[Changelog](patterns/changelog.md)
+## Changelog
+
+{{patterns/changelog.md}}
 
 ## Index of all patterns
 

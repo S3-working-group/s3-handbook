@@ -2,12 +2,15 @@
 title: The S3 Patterns Repository
 ---
 
-# The S3 Patterns Repository
-
 
 This is the canonical list of Sociocracy 3.0 patterns.
 
-[Changelog](patterns/changelog.md)
+## Changelog
+
+## 2016-01-27 
+
+Initial setup of the patterns repository.
+
 
 ## Index of all patterns
 

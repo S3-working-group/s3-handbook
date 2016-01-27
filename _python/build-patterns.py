@@ -46,12 +46,12 @@ def build_toc_files(args, patterns):
         """Create a table of contents from items and write to filename."""
         with file(filename, 'w+') as fp:
             for item in items:
-                write_link(fp, make_title(item), target_prefix+make_pathname(item)+'.md')
+                write_link(fp, make_title(item), target_prefix+make_pathname(item)+'.html')
 
     def write_group_master(folder, group):
         gpath = make_pathname(group)
         with file(os.path.join(folder, '%s--master.md' % gpath), 'w+') as fp:
-            front_matter(fp, group)
+            front_matter(fp, make_title(group))
             fp.write('\n{{%s--content.md}}\n' % gpath)
             fp.write('\n{{%s--toc.md}}\n' % gpath)                
     
@@ -79,9 +79,9 @@ def build_skeleton_files(args, patterns, groups):
     create_directory('patterns')
 
     def make_file(folder, filename_root, title_root):
-            with file(os.path.join(folder, '%s.md' % make_pathname(filename_root)), 'w+') as fp:
-                front_matter(fp, make_title(title_root))
-                fp.write('# %s\n\n...\n' % make_title(title_root))
+        with file(os.path.join(folder, '%s.md' % make_pathname(filename_root)), 'w+') as fp:
+            front_matter(fp, make_title(title_root))
+            fp.write('\n\n...\n')
 
     # create patterns files
     for pattern in patterns:

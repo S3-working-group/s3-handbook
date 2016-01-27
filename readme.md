@@ -88,14 +88,15 @@ The **patterns index** at `patterns/index.md` is built using `patterns--indexmas
 **Pattern group indexes** `/patterns/<group>--index.md`) include a brief description from `/patterns/<group>--content.md`) and a table of contents from `/patterns/<group>--toc.md`). They are compiled from `<group>--master.md`.
 
 
-
 ## Publishing the Handbook
 
 All files relevant to building the handbook are maintained in `/_compile_handbook/`, e.g. styles, master documents. The handbook is compiled form the handbook master file file _handbook-master.md to pdf using the [MultiMarkdown](http://fletcherpenney.net/multimarkdown/) commandline and LaTex, and to epub through pandoc. 
 
-For some strange reason jekyll requires each markdown document to contain what they call "front matter" at the very beginning, a section of settings delimited with an opening and closing `---`. Otherwise Jekyll refuses to render to html. For compiling the handbook, we need a preprocessor to remove the front matter. For the future, we probably will abandon jekyll in favour of a more elegant and less opinionated static site generator.
+For some strange reason jekyll requires each markdown document to contain what they call "front matter" at the very beginning, a section of settings delimited with an opening and closing `---`. Otherwise Jekyll refuses to render to html. For compiling the handbook, we need a preprocessor to remove the front matter. 
 
-{>>TODO: add front matter to all pages <<}
+Also, jekyll requires links to point to html files, so the preprocessor for the handbook needs to translate links. Since markdown automatically creates anchors for each headline, this should not pose a problem for automation: As long as we keep the pattern names in the python file up to date, we can rewrite inline links to other patterns.
+
+For the future, we probably will abandon jekyll in favour of a more elegant and less opinionated static site generator.
 
 {>>TODO: copy files for building the handbook, and remove front matter <<}
 
@@ -123,8 +124,7 @@ On OS-X, ruby and python are already installed. I suggest installing the rest of
 ## To Do
 
 {>>TODO: create template with style to limit image width to 100% <<}
-{>>TODO: remove unnecessary templates and includes <<}
-{>>TODO: include footer with (c) and license, and navigation <<}
+{>>TODO: add fonts etc to styles <<}
 {>>TODO: add a second build for popup windows <<}
 {>>TODO: setup github page <<}
 

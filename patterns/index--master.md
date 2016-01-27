@@ -2,16 +2,14 @@
 title: The S3 Patterns
 ---
   
-# The S3 Patterns 
-
 {{index--content.md}}
 
-[Changelog](changelog.md)
+[Changelog](changelog.html)
 
 
 ## Pattern Groups
 
-{{index--groups-toc.md}}
+{{index--groups--toc.md}}
 
 
 ## Alphabetical List of All Patterns
