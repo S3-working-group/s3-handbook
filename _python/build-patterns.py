@@ -64,18 +64,6 @@ def build_toc_files(args, patterns, root='content-tmp'):
         write_group_master(root, group)
 
 
-def generate_index_files(root='content'):
-
-    print "\ncopy this to the group indexes section of generate-index-files.sh\n"
-    print "# patterns index"
-    print 'multimarkdown --to=mmd --output=index.md index--master.md\n'
-
-    print "# group indexes"
-    for group in sorted(s3_patterns.keys()):
-        # output multimarkdown command to create build group index files
-        print 'multimarkdown --to=mmd --output=%(group)s--index.md %(group)s--master.md' % {'group': make_pathname(group)}        
-
-
 def build_skeleton_files(args, patterns, groups, root='content-tmp'):
     """Build skeleton content files for groups and patterns."""
     
@@ -93,6 +81,18 @@ def build_skeleton_files(args, patterns, groups, root='content-tmp'):
     # create group content files
     for group in groups:
         make_file('%s--content' % group, group)
+
+
+def generate_index_files(root='content'):
+    """mmd commands to compile index files from masters."""
+
+    print "# patterns index"
+    print 'multimarkdown --to=mmd --output=index.md index--master.md\n'
+
+    print "# group indexes"
+    for group in sorted(s3_patterns.keys()):
+        # output multimarkdown command to create build group index files
+        print 'multimarkdown --to=mmd --output=%(group)s.md %(group)s--master.md' % {'group': make_pathname(group)}        
 
 
 def list_excluded_files(args, groups):
