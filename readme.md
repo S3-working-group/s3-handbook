@@ -46,7 +46,6 @@ Content is stored as [MarkDown](http://daringfireball.net/projects/markdown) fil
     └── README.md  (this file)
 
 
-
 ### Publishing
 
 The **handbook** is compiled from many individual Markdown files using MultiMarkdown and file transclusion. The resulting Markdown document is rendered to **pdf** using the [MultiMarkdown](http://fletcherpenney.net/multimarkdown/) commandline tool and LaTex, and to **ebub** with pandoc. 
@@ -104,16 +103,23 @@ The **handbook** is exported to **S3-patterns-handbook.pdf** and **S3-patterns-h
 
 ## Dependencies
 
-{>>TODO: describe dependencies <<}
+Using all the tools in the repository requires:
+
+* jekyll (requires ruby)
+* python (>2.5)
+* pandoc
+* multimarkdown commandline
+
+On OS-X, ruby and python are already installed. I suggest installing the rest of the dependencies through [homebrew](http://brew.sh/).
 
 
 ## To Do
 
+{>>TODO: make sure md pages are rendered to html <<}
 {>>TODO: create template with style to limit image width to 100% <<}
 {>>TODO: remove unnecessary templates and includes <<}
 {>>TODO: include footer with (c) and license, and navigation <<}
 {>>TODO: add a second build for popup windows <<}
-{>>TODO: add license to footer include <<}
 
 
 ## Criteria and Considerations for the Technical Implementation
