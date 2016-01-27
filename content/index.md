@@ -1,8 +1,9 @@
 ---
-title: The S3 Patterns
+title: The S3 Patterns Repository
 ---
   
-{{index--content.md}}
+
+This is the canonical list of Sociocracy 3.0 patterns.
 
 [Changelog](changelog.html)
 
@@ -88,7 +89,6 @@ title: The S3 Patterns
 * [Those Affected Decide](those-affected-decide.html)
 * [Transparent Salary](transparent-salary.html)
 * [Visualize Work](visualize-work.html)
-
 
 
 
