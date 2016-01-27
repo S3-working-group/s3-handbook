@@ -3,13 +3,12 @@
 import argparse
 import os
 
-from s3_patterns import s3_patterns, handbook_group_order
-from common import make_pathname, make_title, create_directory, get_all_patterns
-
+from s3_patterns import s3_patterns, handbook_group_order, all_patterns
+from common import make_pathname, make_title, create_directory
 
 def prepare_handbook(args):
-	"""Prepare all source files so handbook can be compiled through mmd/latex and pandoc/epub."""
-    patterns = get_all_patterns()
+    """Prepare all source files so handbook can be compiled through mmd/latex and pandoc/epub."""
+    patterns = all_patterns()
     dst_dir = os.path.join('handbook', 'tmp')
 
     create_directory(dst_dir)
@@ -40,4 +39,4 @@ if __name__ == "__main__":
     parser.add_argument('--verbose', '-v', action='count')
 
     args = parser.parse_args()
-	prepare_handbook(args)
+    prepare_handbook(args)

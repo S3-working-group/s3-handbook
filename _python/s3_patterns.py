@@ -98,3 +98,11 @@ s3_patterns = {
         "support roles",
     ],
 }
+
+def all_patterns():
+    """Return a sorted list of all patterns."""
+    all_patterns = []
+    for group in s3_patterns.keys():
+        for pattern in s3_patterns[group]:
+            all_patterns.append(pattern)
+    return sorted(all_patterns)

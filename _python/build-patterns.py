@@ -3,8 +3,8 @@
 import argparse
 import os
 
-from s3_patterns import s3_patterns
-from common import make_pathname, make_title, create_directory, get_all_patterns
+from s3_patterns import s3_patterns, all_patterns
+from common import make_pathname, make_title, create_directory
 
 
 def front_matter(fp, title=''):
@@ -102,7 +102,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # init
-    patterns = get_all_patterns()
+    patterns = all_patterns()
     root = 'content'
 
     if args.toc:
