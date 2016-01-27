@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 import argparse
 import os
@@ -6,6 +7,8 @@ import shutil
 
 from s3_patterns import s3_patterns, handbook_group_order, all_patterns
 from common import make_pathname, make_title, create_directory
+from convert_jekyll_files import copy_and_fix_headlines
+
 
 def prepare_handbook(args):
     """Prepare all source files so handbook can be compiled through mmd/latex and pandoc/epub."""
@@ -25,12 +28,13 @@ def prepare_handbook(args):
 def copy_all_files_to_tmp(dst_dir, patterns):
     """Copy all pattern and group--content files to handbook/tmp."""
     for pattern in patterns:
-        shutil.copy('%s.md' % make_pathname(pattern), dst_dir)
+        copy_and_fix_headlines(dst_dir, '%s.md' % make_pathname(pattern), 3)
 
     for group in sorted(s3_patterns.keys()):
-        shutil.copy('%s--content.md' % make_pathname(group), dst_dir)        
+        copy_and_fix_headlines(dst_dir, '%s--content.md' % make_pathname(group), 2)
 
     shutil.copy('changelog.md', dst_dir)        
+    copy_and_fix_headlines(dst_dir, 'changelog.md', 2)
 
 
 def create_master_file_with_all_patterns(dst_dir):
@@ -51,3 +55,9 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     prepare_handbook(args)
+
+
+
+
+
+

@@ -4,6 +4,6 @@
 
 {{tmp/patterns--master.md}}
 
-# Changelog
+# Appendix
 
 {{tmp/changelog.md}}
