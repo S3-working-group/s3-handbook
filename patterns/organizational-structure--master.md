@@ -1,3 +1,7 @@
+---
+title: organizational structure
+---
+
 
 {{organizational-structure--content.md}}
 

@@ -28,12 +28,19 @@ def get_all_patterns():
     return sorted(all_patterns)
 
 
+def front_matter(fp, title=''):
+    fp.write('---\n')
+    if title:
+        fp.write('title: %s\n' % title)
+    fp.write('---\n\n')
+
+
 def build_toc_files(args, patterns):
     """(Re-)build all includes with tables of contents."""
     create_directory('patterns')
 
     def write_link(fp, link_title, link_path):
-        fp.write("\t* [%s](%s)\n" % (link_title, link_path))
+        fp.write("* [%s](%s)\n" % (link_title, link_path))
 
     def write_toc_include(items, filename, target_prefix=''):
         """Create a table of contents from items and write to filename."""
@@ -42,14 +49,15 @@ def build_toc_files(args, patterns):
                 write_link(fp, make_title(item), target_prefix+make_pathname(item)+'.md')
 
     def write_group_master(folder, group):
-        group = make_pathname(group)
-        with file(os.path.join(folder, '%s--master.md' % group), 'w+') as fp:
-            fp.write('\n{{%s--content.md}}\n' % group)
-            fp.write('\n{{%s--toc.md}}\n' % group)                
+        gpath = make_pathname(group)
+        with file(os.path.join(folder, '%s--master.md' % gpath), 'w+') as fp:
+            front_matter(fp, group)
+            fp.write('\n{{%s--content.md}}\n' % gpath)
+            fp.write('\n{{%s--toc.md}}\n' % gpath)                
     
     # create /_toc_include.md to be included in the main index
     write_toc_include(patterns, 'index--toc.md', '/patterns/') # root patterns index
-    write_toc_include(patterns, os.path.join('patterns', 'all_patterns.md')) # patterns index
+    write_toc_include(patterns, os.path.join('patterns', 'all-patterns.md')) # patterns index
     write_toc_include(sorted(s3_patterns.keys()), os.path.join('patterns', 'index--groups--toc.md')) # groups TOC
 
     if args.verbose:
@@ -72,6 +80,7 @@ def build_skeleton_files(args, patterns, groups):
 
     def make_file(folder, filename_root, title_root):
             with file(os.path.join(folder, '%s.md' % make_pathname(filename_root)), 'w+') as fp:
+                front_matter(fp, make_title(title_root))
                 fp.write('# %s\n\n...\n' % make_title(title_root))
 
     # create patterns files
@@ -81,6 +90,7 @@ def build_skeleton_files(args, patterns, groups):
     # create group content files
     for group in groups:
         make_file('patterns', '%s--content' % group, group)
+
 
 def list_excluded_files(args, groups):
 
@@ -95,6 +105,7 @@ def list_excluded_files(args, groups):
         group = make_pathname(group)
         for suffix in ['content', 'toc', 'master']:
             _print(os.path.join('/patterns', group), suffix)
+
 
 if __name__ == "__main__":
 

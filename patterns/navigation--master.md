@@ -1,3 +1,7 @@
+---
+title: navigation
+---
+
 
 {{navigation--content.md}}
 

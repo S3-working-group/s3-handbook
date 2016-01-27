@@ -1,3 +1,7 @@
+---
+title: Alignment
+---
+
 # Alignment
 
 ...

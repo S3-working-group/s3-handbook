@@ -1,21 +1,3 @@
----
-title: The S3 Patterns
----
-  
-# The S3 Patterns 
-
-{{index--content.md}}
-
-[Changelog](changelog.md)
-
-
-## Pattern Groups
-
-{{index--groups-toc.md}}
-
-
-## Alphabetical List of All Patterns
-
 * [S3 Facilitator](s3-facilitator.md)
 * [Adapt Patterns To Context](adapt-patterns-to-context.md)
 * [Adopt S3 Principles](adopt-s3-principles.md)
@@ -81,7 +63,3 @@ title: The S3 Patterns
 * [Those Affected Decide](those-affected-decide.md)
 * [Transparent Salary](transparent-salary.md)
 * [Visualize Work](visualize-work.md)
-
-
-
-

@@ -1,3 +1,7 @@
+---
+title: alignment
+---
+
 
 {{alignment--content.md}}
 

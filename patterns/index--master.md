@@ -1,3 +1,7 @@
+---
+title: The S3 Patterns
+---
+  
 # The S3 Patterns 
 
 {{index--content.md}}
@@ -12,6 +16,6 @@
 
 ## Alphabetical List of All Patterns
 
-{{all_patterns.md}}
+{{all-patterns.md}}
 
 

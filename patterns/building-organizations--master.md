@@ -1,3 +1,7 @@
+---
+title: building organizations
+---
+
 
 {{building-organizations--content.md}}
 

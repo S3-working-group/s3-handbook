@@ -11,12 +11,27 @@ twitter_username: sociocracy30
 markdown: kramdown
 safe: true # required on Github pages (no plugins)
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page" # overrides previous default layout
+
 
 exclude:      [
   "build-handbook.sh", 
   "build-site.sh", 
-  "generate_index_files.sh",
+  "generate-index-files.sh",
   "_python", "README.md",
+  "/patterns/all-patterns.md",
+  "/patterns/index--groups--toc.md",
 
   # auto-generated from here:
   "index--content.md",
@@ -51,18 +66,3 @@ exclude:      [
   "/patterns/alignment--toc.md",
   "/patterns/alignment--master.md",
 ]
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "my-site"
-  -
-    scope:
-      path: "patterns"
-      type: "pages"
-    values:
-      layout: "patterns-repository" # overrides previous default layout
-      author: "Bernhard Bockelbrink"

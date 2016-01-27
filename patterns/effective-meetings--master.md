@@ -1,3 +1,7 @@
+---
+title: effective meetings
+---
+
 
 {{effective-meetings--content.md}}
 

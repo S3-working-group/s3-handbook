@@ -1,3 +1,7 @@
+---
+title: The S3 Patterns Repository
+---
+
 # The S3 Patterns Repository
 
 {{index--content.md}}
