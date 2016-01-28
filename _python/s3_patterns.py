@@ -51,7 +51,7 @@ s3_patterns = {
         "logbook keeper",
         "logbook",
         "meeting facilitation",
-        "meetingevaluation",
+        "meeting evaluation",
         "rounds",
         "S3 facilitator",
         "secretary",

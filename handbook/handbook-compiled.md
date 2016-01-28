@@ -272,6 +272,8 @@ Consent Decision Making...
 
 ### Driver ###
 
+**Definition:**: _A driver is that which motivates us into action: what is happening in a specific situation and what’s needed._
+
 #### Responses to a Driver ####
 
 * the response to a driver always involves the **adaptation of an existing agreement, or creation of a new one**, including:
@@ -528,12 +530,12 @@ Circles meet at regular intervals to create and evolve agreements in response to
 ...
 
 
-### Meeting Facilitation ###
+### Meeting Evaluation ###
 
 ...
 
 
-### Meetingevaluation ###
+### Meeting Facilitation ###
 
 ...
 
