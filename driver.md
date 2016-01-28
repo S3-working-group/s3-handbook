@@ -2,7 +2,7 @@
 title: Driver
 ---
 
-
+**Definition:**: _A driver is that which motivates us into action: what is happening in a specific situation and what’s needed._
 
 # Responses to a Driver #
 
