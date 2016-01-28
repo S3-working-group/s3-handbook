@@ -1,13 +1,4 @@
-# Policy Life-Cycle #
 
-* The Life-Cycle of a Policy
- * Proposal Forming
- * Processing Tensions
- * Continuous Improvement
-	 * Governance Meetings
-	 * Retrospective
-
----
 
 # The Life-Cycle of a Policy #
 
@@ -24,30 +15,6 @@
 		* driver review is delegated to new circle
 
 ---
-
-# Proposal Forming Process #
-### Co-Creating a Response to a Drivers ###
-
-![](img/proposal-forming/proposal-forming.png)
-
----
-  
-# Proposal Forming #
-
-1. **Identify** the driver 
-2. **Consider**: Collect considerations as questions that reveal the scope of the issue
-3. **Create**: Gather ingredients/ideas for solutions
-4. **Refine**: Design a proposal from some or all of the ingredients
-5. **Review**: process with consent decision making
-  
----
-  
-# Proposal Forming... #
-
-* ...is a condensed design thinking process
-* ...taps the collective intelligence of a group
-* ...involves people in co-creating policy
-* ...fosters accountability and a sense of ownership
 
 ---
 
@@ -76,19 +43,12 @@
 
 # Tensions #
 
-**Definition**:  _A tension is the subjective experience of contradiction between reality and that which we desire or anticipate._
 
-![](img/tension-driver-domain/tension-response.png)
 
 ---
 
 ## Tensions ##
 
-* individuals act as sensors (nerve endings) for the organization
-* tension is experienced whenever our perception of our environment is in conflict with:
-	* that which we desire or had anticipated
-	* our values (and principles)
-* problems, challenges, and feelings of unease are all tensions
 
 ---
 
@@ -114,15 +74,7 @@ We consider why, how and when to respond to a stimulus, instead of defaulting to
 
 ---
 
-## From Tension to Driver ##
-  
-* investigating tension leads to the discovery of drivers
-* to identify a possible driver behind a tension we:
-	* **describe** the current reality
-	* **identify** the needs we associate with that reality 
-* in the process, we resolve some tensions as **misunderstandings**
-* we validate drivers
-	* some tensions are **outside the domain** we can address 
+
 
 ---
 
@@ -197,31 +149,3 @@ We consider why, how and when to respond to a stimulus, instead of defaulting to
 
 ---
 
-# Retrospective #
-## Building in continuous improvement of process ##
-
-* goal: reflection on the past to guide process improvement
-* output: policy proposals, tensions, drivers or tasks
-* facilitated meeting (~1hr)
-* regular intervals (1-4 weeks)
-* adapt to situation and context: 
-	* 5 phases with many different patterns for each phase 
-
----
-
-# Retrospective #
-## A time to reflect on process improvement ##
-
-![](img/meetings/retrospective.png)
-
----
-
-# 5 Phases of a Retrospective Meeting #
-
-1. Set the Stage 
-2. Gather Data
-3. Generate Insights
-4. Decide What to Do
-5. Close the Retrospective
-
-Activities for each phase can be found at [plans-for-retrospectives.com](http://www.plans-for-retrospectives.com/)

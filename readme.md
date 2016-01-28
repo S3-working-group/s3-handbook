@@ -115,6 +115,9 @@ On OS-X, ruby and python are already installed. I suggest installing the rest of
 
 ## To Do
 
+{>>TODO: replace all occurrences of policy and plolicies <<}
+{>>TODO: link introduction to website, nav and handbook <<}
+{>>TODO: clean up introduction <<}
 
 ## Criteria and Considerations for the Technical Implementation
 
