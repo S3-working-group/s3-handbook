@@ -1,5 +1,5 @@
 
-![inline,fit](img/tension-driver-domain/domain-model.png)
+![](img/tension-driver-domain/domain-model.png)
 
 ---
 
@@ -7,7 +7,7 @@
 
 **Definition**:  _A driver is that which motivates us into action: the current reality and the needs we associate with it._
 
-![inline,fit](img/tension-driver-domain/driver-response.png)
+![](img/tension-driver-domain/driver-response.png)
 
 ---
 
@@ -25,7 +25,7 @@
 
 **Definition:** _The current reality is the minimum set of facts and observations relevant to specify a driver._
 
-![inline](img/tension-driver-domain/driver.png)
+![](img/tension-driver-domain/driver.png)
 
 ---
 
@@ -41,7 +41,7 @@
 
 **Definition**:  _A need is a necessity related to the current reality, that if satisfied would alter that reality in a manner that eases tension._
 
-![inline](img/tension-driver-domain/driver.png)
+![](img/tension-driver-domain/driver.png)
 
 ---
 
@@ -103,7 +103,7 @@
 
 **Definition**:  _A strategy is the approach towards creating value within a domain._
 
-![inline,fit](img/tension-driver-domain/domain-model.png)
+![](img/tension-driver-domain/domain-model.png)
 
 ---
 

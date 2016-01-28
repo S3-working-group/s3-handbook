@@ -24,7 +24,7 @@
 
 # Flow of Value (end-to-end)#
 
-![inline,fit](img/evolution/wip-and-value.png)
+![](img/evolution/wip-and-value.png)
 
 
 ---
@@ -73,11 +73,11 @@ Usually Kanban is implemented in 5 steps:
 # Step 1 - Visualize Workflow #
 ## A  Simple Workflow##
 
-![inline,fit](img/evolution/simple-process.png)
+![](img/evolution/simple-process.png)
 
 ---
 
-![inline,fit](img/evolution/swim-lanes.png)
+![](img/evolution/swim-lanes.png)
 
 # Step 1 - Visualize workflow
 
@@ -90,7 +90,7 @@ Usually Kanban is implemented in 5 steps:
 
 # Step 2 - Limit Work in Progress #
 
-![inline,fit](img/evolution/wip-and-value.png)
+![](img/evolution/wip-and-value.png)
 
 ---
 
@@ -123,14 +123,14 @@ Usually Kanban is implemented in 5 steps:
 
 ---
 
-![inline,fit](img/evolution/card.png)
+![](img/evolution/card.png)
 
 ---
 
 
 # Step 3 - Measure and Manage Flow #
 
-![inline,fit](img/evolution/cfd.jpg)
+![](img/evolution/cfd.jpg)
 
 ---
 
@@ -181,7 +181,7 @@ Usually Kanban is implemented in 5 steps:
 
 # Scaling Kanban #
 
-![inline,fit](img/evolution/scaling-process.png)
+![](img/evolution/scaling-process.png)
 
 ---
 

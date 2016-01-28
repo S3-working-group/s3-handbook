@@ -13,7 +13,7 @@ title: Align Flow
 
 ## Flow of Value and Flow of Information ##
 
-![inline,fit](img/evolution/types-of-flow.png)
+![](img/evolution/types-of-flow.png)
 
 * in an effective organization, the **flow of information and influence supports the continuous flow of value**
 * alignment is achieved and maintained through continuous improvement of agreements

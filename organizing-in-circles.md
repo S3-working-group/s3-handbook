@@ -16,7 +16,7 @@ All collaboration within an organization happens within circles.
 
 
 
-![inline,fit](img/structure/hierarchy-domains.png)  
+![](img/structure/hierarchy-domains.png)  
 
 ## Forming a New Circle ##
 

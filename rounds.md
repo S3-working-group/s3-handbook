@@ -11,4 +11,4 @@ A group facilitation technique to maintain equivalence.
 
 There's  a number of ways that experienced groups can fast track certain rounds.
 
-![right, fit](img/circle/rounds-new.png) 
+![](img/circle/rounds-new.png) 

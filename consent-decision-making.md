@@ -23,4 +23,4 @@ Consent Decision Making...
 
 ## Harvesting Objections to Capture Emergent Wisdom ##
 
-![right, fit](img/consent-decision-making/cdm-small.png)
+![](img/consent-decision-making/cdm-small.png)

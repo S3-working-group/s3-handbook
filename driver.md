@@ -53,7 +53,7 @@ Adopting the concept of value and waste makes many tools and ideas from **lean p
 
 ### Identifying Waste ###
 
-![inline,fit](img/evolution/drivers-value-waste.png)
+![](img/evolution/drivers-value-waste.png)
 
 * waste exist in many different forms and on different levels of abstraction
     * tasks, processes, organizational structure, mental models...

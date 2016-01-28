@@ -12,7 +12,7 @@ Macro structures provide a general strategy for the layout of an organization.
 
 ---
 
-![fit, inline](img/structural-patterns/top-and-general-circle.png)
+![](img/structural-patterns/top-and-general-circle.png)
 
 ---
 
