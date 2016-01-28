@@ -16,7 +16,7 @@ handbook_group_order = [
 s3_patterns = {
     "alignment": [
         "adopt S3 principles",
-        "agree on values ",
+        "agree on values",
         "bylaws",
         "contracting and accountability",
         "linking",
