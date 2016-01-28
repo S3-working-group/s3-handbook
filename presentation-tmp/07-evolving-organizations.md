@@ -19,38 +19,6 @@
 
 ---
 
-# Sociocracy 3.0 and Lean Thinking #
-
-Adopting the concept of value and waste makes many tools and ideas from **lean production** and **lean software development** available to support organizations running on Sociocracy 3.0:
-
-* value stream mapping
-* various strategies for eliminating waste
-* the Kanban Method
-
----
-
-# Waste and Continuous Improvement
-
-**Definition:** _Waste is anything not necessary (essential) for - or standing in the way of - effective satisfaction of a driver._
-
-* Establishing a process for ongoing elimination of waste enables  natural evolution of an organization towards greater effectiveness
-* Adaptation to changing environment is built into the process
-
----
-
-# Identifying Waste #
-
-![inline,fit](img/evolution/drivers-value-waste.png)
-
----
-
-# Identifying Waste #
-
-* waste exist in many different forms and on different levels of abstraction
-	* tasks, processes, organizational structure, mental models...
-* some tensions reveal waste
-* learning to identify waste is a journey
-	* along the way we also learn how to evolve our drivers
 
 ---
 
@@ -60,26 +28,6 @@ Adopting the concept of value and waste makes many tools and ideas from **lean p
 
 
 ---
-
-# Flow of Value #
-
-* flow of value is guided by policies (explicit and implicit), and assumptions
-* work in progress is considered waste as it ties up resources
-* continuous flow of value prevents accumulation of waste
-	* it also makes for shorter feedback loops and amplifies learning
-
----
-
-# Flow of Value and Flow of Information #
-
-![inline,fit](img/evolution/types-of-flow.png)
-
----
-
-# Flow of Value and Flow of Information #
-
-* in an effective organization, the **flow of information and influence supports the continuous flow of value**
-* alignment is achieved and maintained through continuous improvement of policies
 
 ---
 
@@ -248,17 +196,6 @@ Usually Kanban is implemented in 5 steps:
 
 ---
   
-# Daily Standup #
-
-**Speed up learning and improvement.**
-
-* ~15 min
-* every day at the same time
-* circle gathers around the task board
-* coordination of daily work
-* adaptation of policy or creation of new policy on the spot
-
----
 
 # Improvement Meeting #
 
@@ -268,33 +205,6 @@ Usually Kanban is implemented in 5 steps:
 * often scheduled in the daily standup, or even spontaneous
 * focused on creating a solution for a specific topic or impediment
 
---- 
+-
 
-# Retrospective #
-
-**Reflect on a longer period of work and improve policy.**
-
-* ~60 min
-* cadence, usually 2-4 weeks
-* helps seeing the bigger picture, and identifying more complex types of waste
-
----
-
-# Retrospective (2) #
-
-* What can we learn from the last iteration of work?
-* Are our tools still sharp enough?
-* Are we still going in the right direction?
-
----
-
-# Governance Meeting #
-
-**Make sure nothing slips through the cracks.**
-
-* usually ~60 min
-* regular cadence, usually 2-4 weeks
-* administrative matters
-* scheduled review of policies
-* consent to development plans
 

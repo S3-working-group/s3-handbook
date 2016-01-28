@@ -2,9 +2,16 @@
 title: Retrospective
 ---
 
+**Reflect on a longer period of work and improve policy.**
 
+* ~60 min
+* cadence, usually 2-4 weeks
+* helps seeing the bigger picture, and identifying more complex types of waste
+* What can we learn from the last iteration of work?
+* Are our tools still sharp enough?
+* Are we still going in the right direction?
 
-Building in continuous improvement of process:
+**Building in continuous improvement of process:**
 
 * goal: reflection on the past to guide process improvement
 * output: policy proposals, tensions, drivers or tasks
@@ -28,3 +35,9 @@ Building in continuous improvement of process:
 5. Close the Retrospective
 
 Activities for each phase can be found at [plans-for-retrospectives.com](http://www.plans-for-retrospectives.com/)
+
+
+
+
+
+---

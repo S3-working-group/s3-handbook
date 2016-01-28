@@ -7,4 +7,4 @@ title: Adopt S3 Principles
 * collaboration follows principles and values
 
 
-![inline,fit](img/collaboration-values/soc-30-organization.png)
+![inline,fit](img/collaboration-values/values-step3.png)

@@ -1,13 +1,3 @@
-# Driver and Policy #
-
-* Driver
-* Current Reality and Needs
-* Value
-* Policy
-* Domain
-* Strategy
-
----  
 
 ![inline,fit](img/tension-driver-domain/domain-model.png)
 
@@ -73,45 +63,19 @@
 * connection, collaboration, recognition
 * sustenance, happiness
 
----
-
-# Value #
-
-**Definition**:  _The importance, worth or usefulness of something for satisfaction of a driver._
-
----
-
-# Value #
-
-* value is **not** an **inherent** property as it only exists in relation to a driver
-* value can be quantified by **measuring the progression** towards satisfaction of a driver
-	* value is not necessarily expressed in currency or time
-* **continuous improvement of processes is focused on optimizing the flow of value through an organization**
 
 ---
 
 # Policy #
-## We Respond to Drivers Through Policy ##
-
-**Definition:** _A policy is an agreed upon guideline, pattern, process or protocol designed to guide the flow of value._
 
 ![](img/tension-driver-domain/driver-policy-improvement.png)
 
----
-
-# Policy #
-
-* policies are created in order to satisfy drivers 
-* policies are the **accountability of the circle** that created them
-* each policy includes **evaluation criteria** and is subject to **regular review**
-	*  review dates are specific to each policy
-	*  policy is reviewed in context to its driver
 
 ---
 
 # Domain #
 
-**Definition**: _A domain is the area of accountability, influence and autonomy as defined by a  driver._
+
 
 
 ![](img/tension-driver-domain/simple-domain-model.png)
