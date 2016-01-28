@@ -33,7 +33,7 @@ def copy_all_files_to_tmp(dst_dir, patterns):
     for group in sorted(s3_patterns.keys()):
         copy_and_fix_headlines(dst_dir, '%s--content.md' % make_pathname(group), 2)
 
-    shutil.copy('changelog.md', dst_dir)        
+    copy_and_fix_headlines(dst_dir, 'introduction.md', 1)
     copy_and_fix_headlines(dst_dir, 'changelog.md', 2)
 
 

@@ -4,6 +4,9 @@ title: The S3 Patterns Repository
   
 {{index--content.md}}
 
+
+[Introduction](introduction.html)
+
 [Changelog](changelog.html)
 
 

@@ -1,4 +1,7 @@
 
+# Introduction
+
+{{tmp/introduction.md}}
 
 # The Patterns
 
