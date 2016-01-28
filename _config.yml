@@ -34,13 +34,17 @@ defaults:
 
 
 exclude:      [
+  "_DROPBOX_WORKFLOW.md",
+  "_export",
+  "_python", 
   "build-handbook.sh", 
+  "build-index-files.sh",
   "build-site.sh", 
   "generate-index-files.sh",
-  "_python", 
-  "_export",
-  "_DROPBOX_WORKFLOW.md",
+  "handbook",
+  "presentation-tmp",
   "README.md",
+  "s3patterns.sublime-project",
   
   "all-patterns.md",
   "index--groups--toc.md",
