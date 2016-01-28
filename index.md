@@ -5,6 +5,9 @@ title: The S3 Patterns Repository
 
 This is the canonical list of Sociocracy 3.0 patterns.
 
+
+[Introduction](introduction.html)
+
 [Changelog](changelog.html)
 
 

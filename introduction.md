@@ -37,7 +37,7 @@ Sociocracy 3.0 may be applied within...
 * *socio* 
     * from Latin *socius* - companion, friend
 * *-cracy* 
-    * from Ancient Greek κράτος (krátos, “power, rule”)
+    * from Ancient Greek krátos - “power, rule”
 * different to the rule of the *demos*
     * the general mass of people with voting privileges
 
