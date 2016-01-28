@@ -7,9 +7,6 @@ import codecs
 import os
 
 
-IMG_TEMPLATE = '![]({0}'
-
-
 class LineWriter(object):
     def __init__(self, target, newlines):
         self.target = target
@@ -32,7 +29,10 @@ class LineWriter(object):
 
 
 def copy_and_fix_headlines(dst_dir, filename, headline_level = 1):
-    
+    """
+    Copy files to destination directory, increase headline level, 
+    move page headline from front matter.
+    """
     result_path = os.path.join(dst_dir, filename)
 
     begin_front_matter = False
@@ -62,10 +62,6 @@ def copy_and_fix_headlines(dst_dir, filename, headline_level = 1):
                         pass 
                 elif l.startswith('#'):
                     lw.write(increase_headline_level(l, headline_level))
-                elif line.lstrip().startswith("!["):
-                    # fix image
-                    pos = l.find('(')
-                    lw.write(IMG_TEMPLATE.format(l[pos+1:]))
                 else:
                     lw.write(line)
     
