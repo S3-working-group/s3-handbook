@@ -5,7 +5,7 @@ title: Objections
 **Definition:** _An objection is a reason why doing what is proposed stands in the way of (more) effective satisfaction of an existing driver._
 
 In sociocracy we deliberately seek objections as they reveal
-wisdom that can be used to improve proposals and policies.   
+wisdom that can be used to improve proposals and agreements.   
 
 Objections...
 
@@ -18,9 +18,9 @@ Objections...
 
 ## Questions That Help to Validate Objections ##
 
-* Does the objection relate to this specific proposal or policy?
+* Does the objection relate to this specific proposal or agreement?
 
-* Does this objection reveal how a (proposed or existing) **policy**...
+* Does this objection reveal how a (proposed or existing) **agreement**...
 
     * ...jeopardizes the satisfaction of a driver?
     * ...is in conflict with the organization's values?

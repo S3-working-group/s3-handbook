@@ -7,13 +7,9 @@ Circles meet at regular intervals to create and evolve agreements in response to
 
 * usually ~60 min
 * regular cadence, usually 2-4 weeks
-* administrative matters
-* scheduled review of policies
-* consent to development plans
 
 
 ## Navigation Meeting Structure
-
 
 * Opening Round
     * attune to one another and to the driver the circle serves
@@ -23,7 +19,7 @@ Circles meet at regular intervals to create and evolve agreements in response to
     * Short Reports
     * Processing Tensions
     * Proposal Forming and Consent to Proposals
-    * Review of Policies, Strategy and Driver
+    * Review of Agreements, Strategy and Driver
     * Defining Roles and Selecting People for Roles
     * Consent to Role Improvement Plans
 * Closing Round

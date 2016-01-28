@@ -8,4 +8,4 @@ title: Transparent Salary
 * consider members and relevant stakeholders (e.g. investors)
 * classic sociocracy: everyone feels gains and losses
 * consider remuneration for changing roles
-* create strategy for transitioning towards new compensation policy
+* create strategy for transitioning towards new contracts and compensation agreements

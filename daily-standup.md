@@ -10,4 +10,4 @@ title: Daily Standup
 * every day at the same time
 * circle gathers around the task board
 * coordination of daily work
-* adaptation of policy or creation of new policy on the spot
+* adaptation of existing agreements or creation of new agreements on the spot

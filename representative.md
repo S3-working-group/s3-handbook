@@ -11,4 +11,4 @@ Representatives (a.k.a Links)...:
 * ...are elected for a limited term
 * ...participate as full members in governance meetings of the other circle and can:
     * raise items for the agenda
-    * object to policies and policy proposals
+    * object to agreements and proposals

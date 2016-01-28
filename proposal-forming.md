@@ -7,7 +7,7 @@ Proposal Forming...
 
 * ...is similar to condensed design thinking process
 * ...taps the collective intelligence of a group
-* ...involves people in co-creating policy
+* ...involves people in co-creating agreements
 * ...fosters accountability and a sense of ownership
 
 

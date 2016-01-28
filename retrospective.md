@@ -2,7 +2,7 @@
 title: Retrospective
 ---
 
-**Reflect on a longer period of work and improve policy.**
+**Reflect on a longer period of work and improve agreements.**
 
 * ~60 min
 * cadence, usually 2-4 weeks
@@ -14,7 +14,7 @@ title: Retrospective
 **Building in continuous improvement of process:**
 
 * goal: reflection on the past to guide process improvement
-* output: policy proposals, tensions, drivers or tasks
+* output: proposals for agreements, tensions, drivers or tasks
 * facilitated meeting (~1hr)
 * regular intervals (1-4 weeks)
 * adapt to situation and context: 

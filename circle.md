@@ -7,7 +7,7 @@ A circle...
 
 * ...is the basic building block of an organization
 * ...is a group of people gathered around a driver (permanent or temporary)
-* ...makes all policy decisions by consent
+* ...makes all agreements by consent
 * ...is accountable for its own development
 
 

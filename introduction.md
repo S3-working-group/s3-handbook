@@ -213,5 +213,5 @@ An organization is defined by its values, driver and strategy.
 * to transition towards Sociocracy 3.0 an organization:
     *  identifies values and driver of the organization
     *  incorporates vision, mission, aims or objectives in the strategy
-    *  seeks out drivers for all policies (including circles and roles)
+    *  seeks out drivers for all existing policy and agreements (including circles and roles)
 

@@ -13,10 +13,10 @@ title: Agree On Values
 ![inline,fit](img/collaboration-values/values-step2.png)
 
 * organizational values **define culture** and set parameters for action
-* values offer guidance to determine appropriate action, even in the absence of explicit policy
+* values offer guidance to determine appropriate action, even in the absence of explicit agreements
 * a group or organization may **choose to collectively adopt values**
 * defining values is a **strategy** that supports effectiveness of an organization:
     * reduces potential for **misunderstanding**
     * **aligns** decision making and action
     * **attracts new members, partners and customers** who are aligned with the organization
-* values are policy and subject to **regular reviews**
+* values are an agreement, and thus subject to **regular reviews**
