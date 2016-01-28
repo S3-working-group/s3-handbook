@@ -1,5 +1,4 @@
 
-# Introduction
 
 {{tmp/introduction.md}}
 

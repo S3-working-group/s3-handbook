@@ -19,14 +19,15 @@ def prepare_handbook(args):
     if set(handbook_group_order) != set(s3_patterns.keys()):
         raise Exception("ERROR: Handbook group order does not reflect actual pattern groups!")
 
-    copy_all_files_to_tmp(dst_dir, patterns)
-	# 2. remove front matter, add titles with correct level to patterns and groups
-	
+    convert_and_copy_all_files_to_tmp(dst_dir, patterns)
     create_master_file_with_all_patterns(dst_dir)
 	
 
-def copy_all_files_to_tmp(dst_dir, patterns):
-    """Copy all pattern and group--content files to handbook/tmp."""
+def convert_and_copy_all_files_to_tmp(dst_dir, patterns):
+    """
+    Copy all pattern and group--content files to handbook/tmp, 
+    convert front matter title to headline and adapt all headline levels as required.
+    """
     for pattern in patterns:
         copy_and_fix_headlines(dst_dir, '%s.md' % make_pathname(pattern), 3)
 
@@ -44,7 +45,6 @@ def create_master_file_with_all_patterns(dst_dir):
             fp.write('\n\n{{%s--content.md}}\n' % make_pathname(group))
             for pattern in sorted(s3_patterns[group]):
                 fp.write('\n{{%s.md}}\n' % make_pathname(pattern))
-
 
 
 if __name__ == "__main__":

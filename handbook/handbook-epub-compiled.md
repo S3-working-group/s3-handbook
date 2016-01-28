@@ -9,11 +9,10 @@ rights: © 2015, 2016 Bernhard Bockelbrink, James Priest, CC BY-SA
 ...
 
 
-# Introduction
 
 # Introduction #
 
-### Sociocracy 3.0... ###
+## Sociocracy 3.0... ##
 
 ...is a method for growing **effective, agile and resilient organization**s of **any size,** from small start-ups to large international networks and nationwide, multi-agency collaboration.
 
@@ -50,7 +49,7 @@ Sociocracy 3.0 may be applied within...
 * different to the rule of the *demos*
     * the general mass of people with voting privileges
 
-### A Brief History of Sociocracy  From 1851 to Today ###
+## A Brief History of Sociocracy  From 1851 to Today ##
 
 ![](img/general/history-new.png)
 
@@ -83,7 +82,7 @@ Sociocracy 3.0 may be applied within...
     * share a deep appreciation for the transformational potential of sociocracy to help organizations and their members thrive
     * dedicate some of their time to developing and evolving Sociocracy 3.0
 
-### Why "Sociocracy 3.0" ###
+## Why "Sociocracy 3.0" ##
 
 Respect to the lineage, and a step forward.
 
@@ -95,7 +94,7 @@ Respect to the lineage, and a step forward.
 * integrated with lean and agile thinking
 * new ways to evolve organizational structure
 
-### Design Goals ###
+## Design Goals ##
 
 ![](img/general/design-goals.png)
 
@@ -120,14 +119,14 @@ Respect to the lineage, and a step forward.
 	* no stuff that gets in the way
 	* no busywork
 
-### Patterns ###
+## Patterns ##
 
 **Definition**: *A pattern is a template for successfully navigating a specific context.*
 
 * patterns are discovered through observing many organizations as they solve problems
 * patterns may need to be adapted and evolved to suit differing contexts.
 
-### Principles behind Sociocracy 3.0 ###
+## Principles behind Sociocracy 3.0 ##
 
 * Sociocracy is built on 7 core principles
 * the core principles are also values that shape organizational culture
@@ -136,7 +135,7 @@ Respect to the lineage, and a step forward.
 
 ![](img/principles/s3-principles-v3a.png)
 
-#### Principle: Empiricism ####
+### Principle: Empiricism ###
 
 **Knowledge in an organization can only be gained through experience, as it is highly dependent on context.**
 
@@ -146,7 +145,7 @@ Respect to the lineage, and a step forward.
 * reality vs. assumptions
 * learning organization
 
-#### Principle: Consent ####
+### Principle: Consent ###
 
 **Decisions are made only in the absence of reasoned objection from those affected by them.**
 
@@ -156,7 +155,7 @@ Respect to the lineage, and a step forward.
     *  helps identify misunderstanding early
     *  fosters support and accountability for decisions
 
-#### Principle: Effectiveness ####
+### Principle: Effectiveness ###
 
 **Devote time only to that which brings you closer to achieving your objectives.**
 
@@ -164,20 +163,20 @@ Respect to the lineage, and a step forward.
 * remove impediments
 * good enough for now, safe enough to try
 
-#### Principle: Equivalence ####
+### Principle: Equivalence ###
 
 **Everyone affected by a decision has the power to withdraw consent on the basis of reasoned objection.**
 
 * position, rank, function or role has no special influence in decision making
 
-#### Principle: Transparency ####
+### Principle: Transparency ###
 
 **All information is accessible to anyone in an organization. Confidentiality requires consent.**
 
 * all relevant information is kept up-to-date
 * historical information is archived for reference
 
-#### Principle: Continuous Improvement ####
+### Principle: Continuous Improvement ###
 
 **Evolution is more effective than revolution (most of the time).**
 
@@ -185,7 +184,7 @@ Respect to the lineage, and a step forward.
 * respond to change by building on and transforming what is already there
 * small steps create less resistance, lower risk, and accommodate steady empirical learning
 
-#### Principle: Accountability ####
+### Principle: Accountability ###
 
 **The process of entering and keeping agreements, and managing  expectations in any relationship.**
 
@@ -193,7 +192,7 @@ Respect to the lineage, and a step forward.
 * a principle relevant to groups, organizations and individuals
 * a shift from being *held to account*, and towards a culture of *self-accountability*
 
-### Organizations ###
+## Organizations ##
 
 An organization is defined by its values, driver and strategy.
 
@@ -270,7 +269,7 @@ Consent Decision Making...
 * helps balance equivalence and effectiveness
 * experienced groups can move quickly through the stages of Consent Decision Making
 
-##### Harvesting Objections to Capture Emergent Wisdom #####
+#### Harvesting Objections to Capture Emergent Wisdom ####
 
 ![](img/consent-decision-making/cdm-small.png)
 
@@ -284,7 +283,7 @@ Consent Decision Making...
 
 **Definition:**: _A driver is that which motivates us into action: what is happening in a specific situation and what’s needed._
 
-#### Responses to a Driver ####
+### Responses to a Driver ###
 
 * the response to a driver always involves the **adaptation of an existing agreement, or creation of a new one**, including:
     * changing the plan: adding a task or project
@@ -292,16 +291,16 @@ Consent Decision Making...
     * creation of a new circle
         * driver review is delegated to new circle
 
-##### Drivers Are Subject to Regular Review #####
+#### Drivers Are Subject to Regular Review ####
 
 * Is the description of the current reality correct?
 * Do we still associate the same needs with the current reality?
 * Is the driver still within our domain?
 * Is the driver still relevant?
 
-##### Sociocracy 3.0 and Lean Thinking #####
+#### Sociocracy 3.0 and Lean Thinking ####
 
-###### Value and Waste ######
+##### Value and Waste #####
 
 **Definition**:  _The importance, worth or usefulness of something for satisfaction of a driver._
 
@@ -320,12 +319,12 @@ Adopting the concept of value and waste makes many tools and ideas from **lean p
 * various strategies for eliminating waste
 * the Kanban Method
 
-###### Waste and Continuous Improvement ######
+##### Waste and Continuous Improvement #####
 
 * Establishing a process for ongoing elimination of waste enables natural evolution of an organization towards greater effectiveness
 * Adaptation to changing environment is built into the process
 
-###### Identifying Waste ######
+##### Identifying Waste #####
 
 ![](img/evolution/drivers-value-waste.png)
 
@@ -366,7 +365,7 @@ Objections...
 * ...emerge through individuals and belong to the whole circle
 * we love objections in sociocracy
 
-##### Questions That Help to Validate Objections #####
+#### Questions That Help to Validate Objections ####
 
 * Does the objection relate to this specific proposal or agreement?
 
@@ -377,7 +376,7 @@ Objections...
     * ...prevents or diminishes someone's contribution to satisfying a driver?
     * ...can be improved significantly?
 
-#### Concerns... ####
+### Concerns... ###
 
 * ...are not objections
 * ...don't stop us from making agreements
@@ -396,9 +395,9 @@ Proposal Forming...
 * ...involves people in co-creating agreements
 * ...fosters accountability and a sense of ownership
 
-![](img/proposal-forming/proposal-forming.png)
+![Co-Creating a Response to a Drivers](img/proposal-forming/proposal-forming.png)
 
-##### Proposal Forming Process #####
+#### Proposal Forming Process ####
 
 1. **Identify** the driver
 2. **Consider**: Collect considerations as questions that reveal the scope of the issue
@@ -418,7 +417,7 @@ We consider why, how and when to respond to a stimulus, instead of defaulting to
 
 ### Resolve Objections ###
 
-#### Methods for Resolving Objections ####
+### Methods for Resolving Objections ###
 
 * ask proposal owner
 * ask member with objection to amend proposal
@@ -460,7 +459,7 @@ Circles meet at regular intervals to create and evolve agreements in response to
 * usually ~60 min
 * regular cadence, usually 2-4 weeks
 
-##### Navigation Meeting Structure
+#### Navigation Meeting Structure
 
 * Opening Round
     * attune to one another and to the driver the circle serves
@@ -489,7 +488,7 @@ Circles meet at regular intervals to create and evolve agreements in response to
     * our values (and principles)
 * problems, challenges, and feelings of unease are all tensions
 
-##### From Tension to Driver #####
+#### From Tension to Driver ####
 
 * investigating tension leads to the discovery of drivers
 * to identify a possible driver behind a tension we:
@@ -630,11 +629,11 @@ There's  a number of ways that experienced groups can fast track certain rounds.
 * adapt to situation and context:
     * 5 phases with many different patterns for each phase
 
-##### A time to reflect on process improvement #####
+#### A time to reflect on process improvement ####
 
 ![](img/meetings/retrospective.png)
 
-##### 5 Phases of a Retrospective Meeting #####
+#### 5 Phases of a Retrospective Meeting ####
 
 1. Set the Stage
 2. Gather Data
@@ -657,8 +656,6 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 
 ### Align Flow ###
-
-![](img/evolution/types-of-flow.png)
 
 #### Flow of Value ####
 
@@ -689,17 +686,17 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 All collaboration within an organization happens within circles.
 
-##### Circle Structure #####
+#### Circle Structure ####
 
 * Circles already exist in every organization
     * Look at people gathered around delivering products or services
 * People may hold roles in more than one circle
 
-##### From Autocracy to Nested Domains of Circles #####
+#### From Autocracy to Nested Domains of Circles ####
 
 ![](img/structure/hierarchy-domains.png)
 
-##### Forming a New Circle #####
+#### Forming a New Circle ####
 
 * a circle identifies a new driver and decides that creating a new circle is the most effective response
 * a new circle is formed and populated
@@ -718,7 +715,7 @@ All collaboration within an organization happens within circles.
 
 ![](img/people-and-roles/roles.png)
 
-#### People, Functions and Roles ####
+### People, Functions and Roles ###
 
 * identify functions required to respond to a driver
 * if a function is best addressed by a role:
@@ -726,11 +723,11 @@ All collaboration within an organization happens within circles.
     * select people for the role
     * support development of people in the role
 
-#### Role Definition and Improvement ####
+### Role Definition and Improvement ###
 
 ![](img/people-and-roles/role-improvement.png)
 
-#### Performance Improvement Process ####
+### Performance Improvement Process ###
 
 Continuous improvement of the effectiveness of people in roles ##
 
@@ -759,7 +756,7 @@ Continuous improvement of the effectiveness of people in roles ##
 * a process to harvest appreciations, identify opportunities for improvement and evolve the role
 * the individual holding the role initiates the process and begins each step
 
-##### Steps
+#### Steps
 
 1. Invite people with complementing perspectives to contribute to the review, and a facilitator
 2. Collect appreciations
@@ -807,7 +804,7 @@ The primary function of organizational structure is **to enable effective collab
 
 **Semi-autonomous, self-organizing and self-governing circles** are the basic building blocks for organizational structure.
 
-#### Structural Patterns ####
+### Structural Patterns ###
 
 * Sociocracy 3.0 describes a variety of patterns to grow organizational structure
 * patterns apply to different layers of abstraction (basic, micro, macro and meta)
@@ -837,7 +834,7 @@ A pattern for coordination
 
 ### Double Linking ###
 
-#####Facilitate two-way flow of information and influence#####
+####Facilitate two-way flow of information and influence####
 
 * Two interdependent circles each elect a representative to participate as full members in both circles' governance meetings
 * can be used to prevent tensions in hierarchical structures
@@ -973,7 +970,7 @@ A pattern for outsourcing shared services
 
 ### Linking ###
 
-##### Connecting two circles #####
+#### Connecting two circles ####
 
 ![](img/structural-patterns/circles-and-links.png)
 

@@ -67,7 +67,7 @@ def copy_and_fix_headlines(dst_dir, filename, headline_level = 1):
     
 
 def increase_headline_level(line, times):
-    for x in range(times):
+    for x in range(times-1):
         line = '#' + line
         if line.endswith('#'):
             line = line + '#'
