@@ -3,9 +3,7 @@ title: Align Flow
 ---
 
 
-![](img/evolution/types-of-flow.png)
-
-# Flow of Value #
+## Flow of Value ##
 
 * flow of value is guided by agreements (explicit and implicit), and assumptions
 * work in progress is considered waste as it ties up resources
@@ -13,7 +11,7 @@ title: Align Flow
     * it also makes for shorter feedback loops and amplifies learning
 
 
-# Flow of Value and Flow of Information #
+## Flow of Value and Flow of Information ##
 
 ![inline,fit](img/evolution/types-of-flow.png)
 
