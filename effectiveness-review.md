@@ -14,3 +14,6 @@ title: Effectiveness Review
     * personal development
     * updates to role description, function or driver 
 4. Co-create and consent to a development plan
+
+
+![](img/people-and-roles/effectiveness-review2.png)

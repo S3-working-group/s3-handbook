@@ -4,5 +4,5 @@ title: Linking
 
 ## Connecting two circles ##
 
-![](img/structural-patterns/circles-and-links.png)
+![](img/structural-patterns/link-plain.png)
 

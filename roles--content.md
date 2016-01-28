@@ -18,7 +18,6 @@ title: Roles
 ![](img/people-and-roles/role-improvement.png)
 
 
-
 ## Performance Improvement Process ##
 
 Continuous improvement of the effectiveness of people in roles ##
@@ -28,6 +27,6 @@ Continuous improvement of the effectiveness of people in roles ##
 3. Full circle consents to development plan
 4. Act on the plan
 
-
+![](img/people-and-roles/performance-improvement-process.png)
 
 ...

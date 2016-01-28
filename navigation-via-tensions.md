@@ -3,17 +3,16 @@ title: Navigation Via Tensions
 ---
 
 
-
 **Definition**:  _A tension is the subjective experience of contradiction between reality and that which we desire or anticipate._
-
-![](img/tension-driver-domain/tension-response.png)
-
 
 * individuals act as sensors (nerve endings) for the organization
 * tension is experienced whenever our perception of our environment is in conflict with:
     * that which we desire or had anticipated
     * our values (and principles)
 * problems, challenges, and feelings of unease are all tensions
+
+![](img/tension-driver-domain/navigate-via-tensions.png)
+
 
 ## From Tension to Driver ##
   

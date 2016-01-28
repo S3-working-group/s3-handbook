@@ -12,3 +12,7 @@ title: Role Descriptions
     * preferable skills, experience and qualities
     * cadence of effectiveness reviews
 
+
+## Template for Role Descriptions
+
+![](img/people-and-roles/role-description-template.png)

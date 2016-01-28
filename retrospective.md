@@ -22,7 +22,7 @@ title: Retrospective
 
 ## A time to reflect on process improvement ##
 
-![](img/meetings/retrospective.png)
+![](img/meetings/retrospective-2.png)
 
 
 

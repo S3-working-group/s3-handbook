@@ -9,3 +9,5 @@ title: Transparent Salary
 * classic sociocracy: everyone feels gains and losses
 * consider remuneration for changing roles
 * create strategy for transitioning towards new contracts and compensation agreements
+
+![](img/circle/transparent-salary.png)
