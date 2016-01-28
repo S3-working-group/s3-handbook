@@ -2,9 +2,49 @@
 
 import argparse
 import os
+import shutil
 
 from s3_patterns import s3_patterns, all_patterns
 from common import make_pathname, make_title, create_directory
+
+
+def cmd_build(args):
+    patterns = all_patterns()
+
+    if args.toc:
+        build_toc_files(args, patterns)
+
+    if args.skeleton:
+        build_skeleton_files(args, patterns, s3_patterns.keys())
+
+    if args.excluded:
+        list_excluded_files(args, s3_patterns.keys())
+
+    if args.index:
+        generate_index_files()
+
+
+def cmd_export(args):
+    """Export all content files to a separate folder."""
+    patterns = all_patterns()
+    dst_dir = '_export'
+    create_directory(dst_dir)
+    for pattern in patterns:
+        shutil.copy('%s.md' % make_pathname(pattern), dst_dir)
+
+    for group in sorted(s3_patterns.keys()):
+        shutil.copy('%s--content.md' % make_pathname(group), dst_dir)
+
+    shutil.copy('introduction.md', dst_dir)
+    shutil.copy('changelog.md', dst_dir)
+    shutil.copy('_DROPBOX_WORKFLOW.md', dst_dir)
+    shutil.copy('README.md', dst_dir)
+
+
+    # delete and re-copy images
+    img_dest = os.path.join(dst_dir, 'img')
+    shutil.rmtree(img_dest, ignore_errors=True)
+    shutil.copytree('img', img_dest)
 
 
 def front_matter(fp, title=''):
@@ -89,32 +129,25 @@ if __name__ == "__main__":
 
     # setup argparse
     parser = argparse.ArgumentParser(description='build files for s3 patterns website and handbooks')
+
     parser.add_argument('--verbose', '-v', action='count')
-    parser.add_argument('--toc', action='store_true',
+    subparsers = parser.add_subparsers()
+    build = subparsers.add_parser('build',
+                                  help="Helpers for building files and indexes.")
+    build.add_argument('--toc', action='store_true',
                         help='(re-)build all includes with tables of contents.')
-    parser.add_argument('--skeleton', action='store_true',
+    build.add_argument('--skeleton', action='store_true',
                         help='build skeleton content files for groups and patterns.')
-    parser.add_argument('--excluded', action='store_true',
+    build.add_argument('--excluded', action='store_true',
                         help='Create exclude list for _config.yaml.')
-    parser.add_argument('--index', action='store_true',
+    build.add_argument('--index', action='store_true',
                         help='Output commands for generate-index-files.')
+    build.set_defaults(func=cmd_build)
+
+    export = subparsers.add_parser('export',
+                                   help="Export content files to share on dropbox.")
+    export.set_defaults(func=cmd_export)
 
     args = parser.parse_args()
-
-    # init
-    patterns = all_patterns()
-    root = 'content'
-
-    if args.toc:
-        build_toc_files(args, patterns)
-
-    if args.skeleton:
-        build_skeleton_files(args, patterns, s3_patterns.keys())
-
-    if args.excluded:
-        list_excluded_files(args, s3_patterns.keys())
-
-    if args.index:
-        generate_index_files()
-
+    args.func(args)
 

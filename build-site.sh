@@ -1,2 +1,2 @@
-./generate-index-files.sh
+./build-index-files.sh
 jekyll build

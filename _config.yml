@@ -37,7 +37,10 @@ exclude:      [
   "build-handbook.sh", 
   "build-site.sh", 
   "generate-index-files.sh",
-  "_python", "README.md",
+  "_python", 
+  "_export",
+  "_DROPBOX_WORKFLOW.md",
+  "README.md",
   
   "all-patterns.md",
   "index--groups--toc.md",
