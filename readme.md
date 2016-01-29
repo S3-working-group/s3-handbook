@@ -1,8 +1,8 @@
-# S3 Patterns Repository
+# S3 Patterns Handbook
 
-This is the source files of the canonical Sociocracy 3.0 patterns repository.
+This is the source files of the Sociocracy 3.0 Patterns Handbook, which will eventually contain descriptions for all S3 patterns.
 
-The web version can be viewed at [http://s3-working-group.github.io/s3patterns//](http://s3-working-group.github.io/s3patterns//)
+Tha handbook is available as [pdf](http://s3-working-group.github.io/s3patterns/S3-patterns-handbook.pdf) or [epub](http://s3-working-group.github.io/s3patterns/S3-patterns-handbook.epub), the web version can be viewed at [http://s3-working-group.github.io/s3patterns//](http://s3-working-group.github.io/s3patterns//)
 
 ## Driver
 

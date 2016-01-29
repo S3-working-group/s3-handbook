@@ -1,5 +1,5 @@
 ---
-title: The S3 Patterns Repository
+title: The S3 Patterns Handbook
 ---
   
 
