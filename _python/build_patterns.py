@@ -31,18 +31,16 @@ def cmd_export(args):
     artefacts = [
         '_DROPBOX_WORKFLOW.md',
         'README.md',
+        'S3-patterns-handbook.epub',
+        'S3-patterns-handbook.pdf',
     ]
     template='%s.md'
     patterns = all_patterns()
     dst_dir = '_export'
     
-
-    if agrs.dropbox == True:
+    if args.dropbox == True:
         template='%s--original.md'
-        artefacts.extend(['S3-patterns-handbook.epub',
-                           'S3-patterns-handbook.pdf',
-                            ])
-
+    
     # clear previous export
     shutil.rmtree(dst_dir, ignore_errors=True)
 
@@ -60,18 +58,16 @@ def cmd_export(args):
     for group in sorted(s3_patterns.keys()):
         copy_and_add_suffix('%s--content' % make_pathname(group))
 
-
     # copy additional content files
     for item in additional_content:
         copy_and_add_suffix(item)
 
-    # copy artefacts
-    for item in artefacts:
-        shutil.copy(item, dst_dir)
-
-    # copy images for dropbox 
-    if agrs.dropbox == True:
+    if args.dropbox == True:
+        # copy images
         shutil.copytree('img', os.path.join(dst_dir, 'img'))
+        # copy artefacts
+        for item in artefacts:
+            shutil.copy(item, dst_dir)
 
 
 def front_matter(fp, title=''):
