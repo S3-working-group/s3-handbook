@@ -8,6 +8,7 @@ import os
 
 
 class LineWriter(object):
+
     def __init__(self, target, newlines):
         self.target = target
         if not newlines:
@@ -28,7 +29,7 @@ class LineWriter(object):
         self.prev_line_empty = True
 
 
-def copy_and_fix_headlines(dst_dir, filename, headline_level = 1):
+def copy_and_fix_headlines(dst_dir, filename, headline_level=1):
     """
     Copy files to destination directory, increase headline level, 
     move page headline from front matter.
@@ -42,14 +43,15 @@ def copy_and_fix_headlines(dst_dir, filename, headline_level = 1):
         with codecs.open(result_path, 'w', 'utf-8') as target:
             lw = LineWriter(target, source.newlines)
             for line in source:
-                l = line.rstrip()    
+                l = line.rstrip()
                 if begin_front_matter and not end_front_matter:
                     if l == '---':
                         end_front_matter = True
                     else:
                         key, value = l.split(':', 1)
                         if key.strip() == 'title':
-                            lw.write('%(hashes)s %(title)s %(hashes)s' % {'hashes': '#'*headline_level, 'title': value.strip()})
+                            lw.write('%(hashes)s %(title)s %(hashes)s' % {
+                                     'hashes': '#'*headline_level, 'title': value.strip()})
                     continue
 
                 if not l:
@@ -57,14 +59,14 @@ def copy_and_fix_headlines(dst_dir, filename, headline_level = 1):
                 elif l == '---':
                     if not begin_front_matter:
                         begin_front_matter = True
-                    else: 
+                    else:
                         # omit line, do not change empty line marker!
-                        pass 
+                        pass
                 elif l.startswith('#'):
                     lw.write(increase_headline_level(l, headline_level))
                 else:
                     lw.write(line)
-    
+
 
 def increase_headline_level(line, times):
     for x in range(times-1):
@@ -72,4 +74,3 @@ def increase_headline_level(line, times):
         if line.endswith('#'):
             line = line + '#'
     return line
-

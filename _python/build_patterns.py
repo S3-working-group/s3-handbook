@@ -27,27 +27,27 @@ def cmd_build(args):
 def cmd_export(args):
     """Export all content files to a separate folder, optionally suffix with --originam."""
 
-    additional_content = ['introduction','changelog']
+    additional_content = ['introduction', 'changelog']
     artefacts = [
         '_DROPBOX_WORKFLOW.md',
         'README.md',
         'S3-patterns-handbook.epub',
         'S3-patterns-handbook.pdf',
     ]
-    template='%s.md'
+    template = '%s.md'
     patterns = all_patterns()
     dst_dir = '_export'
-    
+
     if args.dropbox == True:
-        template='%s--original.md'
-    
+        template = '%s--original.md'
+
     # clear previous export
     shutil.rmtree(dst_dir, ignore_errors=True)
 
     create_directory(dst_dir)
 
     def copy_and_add_suffix(name):
-        shutil.copy('%s.md' % name, 
+        shutil.copy('%s.md' % name,
                     os.path.join(dst_dir, template % name))
 
     # copy patterns
@@ -88,27 +88,31 @@ def build_toc_files(args, patterns, root='content-tmp'):
         """Create a table of contents from items and write to filename."""
         with file(filename, 'w+') as fp:
             for item in items:
-                write_link(fp, make_title(item), target_prefix+make_pathname(item)+'.html')
+                write_link(
+                    fp, make_title(item), target_prefix+make_pathname(item)+'.html')
 
     def write_group_master(folder, group):
         gpath = make_pathname(group)
         with file(os.path.join(folder, '%s--master.md' % gpath), 'w+') as fp:
             front_matter(fp, make_title(group))
             fp.write('\n{{%s--content.md}}\n' % gpath)
-            fp.write('\n{{%s--toc.md}}\n' % gpath)                
-    
-    write_toc_include(patterns, os.path.join(root, 'all-patterns.md')) # patterns index
-    write_toc_include(sorted(s3_patterns.keys()), os.path.join(root, 'index--groups--toc.md')) # groups TOC
+            fp.write('\n{{%s--toc.md}}\n' % gpath)
+
+    # patterns index
+    write_toc_include(patterns, os.path.join(root, 'all-patterns.md'))
+    write_toc_include(sorted(s3_patterns.keys()), os.path.join(
+        root, 'index--groups--toc.md'))  # groups TOC
 
     # build a TOC for each group
     for group in sorted(s3_patterns.keys()):
-        write_toc_include(sorted(s3_patterns[group]), os.path.join(root, '%s--toc.md' % make_pathname(group)))
+        write_toc_include(sorted(s3_patterns[group]), os.path.join(
+            root, '%s--toc.md' % make_pathname(group)))
         write_group_master(root, group)
 
 
 def build_skeleton_files(args, patterns, groups, root='content-tmp'):
     """Build skeleton content files for groups and patterns."""
-    
+
     create_directory(root)
 
     def make_file(filename_root, title_root):
@@ -134,7 +138,7 @@ def generate_index_files(root='content'):
     print "# group indexes"
     for group in sorted(s3_patterns.keys()):
         # output multimarkdown command to create build group index files
-        print 'multimarkdown --to=mmd --output=%(group)s.md %(group)s--master.md' % {'group': make_pathname(group)}        
+        print 'multimarkdown --to=mmd --output=%(group)s.md %(group)s--master.md' % {'group': make_pathname(group)}
 
 
 def list_excluded_files(args, groups):
@@ -151,20 +155,21 @@ def list_excluded_files(args, groups):
 if __name__ == "__main__":
 
     # setup argparse
-    parser = argparse.ArgumentParser(description='build files for s3 patterns website and handbooks')
+    parser = argparse.ArgumentParser(
+        description='build files for s3 patterns website and handbooks')
 
     parser.add_argument('--verbose', '-v', action='count')
     subparsers = parser.add_subparsers()
     build = subparsers.add_parser('build',
                                   help="Helpers for building files and indexes.")
     build.add_argument('--toc', action='store_true',
-                        help='(re-)build all includes with tables of contents.')
+                       help='(re-)build all includes with tables of contents.')
     build.add_argument('--skeleton', action='store_true',
-                        help='build skeleton content files for groups and patterns.')
+                       help='build skeleton content files for groups and patterns.')
     build.add_argument('--excluded', action='store_true',
-                        help='Create exclude list for _config.yaml.')
+                       help='Create exclude list for _config.yaml.')
     build.add_argument('--index', action='store_true',
-                        help='Output commands for generate-index-files.')
+                       help='Output commands for generate-index-files.')
     build.set_defaults(func=cmd_build)
 
     export = subparsers.add_parser('export',
@@ -176,4 +181,3 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     args.func(args)
-

@@ -99,6 +99,7 @@ s3_patterns = {
     ],
 }
 
+
 def all_patterns():
     """Return a sorted list of all patterns."""
     all_patterns = []

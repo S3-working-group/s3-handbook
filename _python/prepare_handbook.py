@@ -17,11 +17,12 @@ def prepare_handbook(args):
 
     create_directory(dst_dir)
     if set(handbook_group_order) != set(s3_patterns.keys()):
-        raise Exception("ERROR: Handbook group order does not reflect actual pattern groups!")
+        raise Exception(
+            "ERROR: Handbook group order does not reflect actual pattern groups!")
 
     convert_and_copy_all_files_to_tmp(dst_dir, patterns)
     create_master_file_with_all_patterns(dst_dir)
-	
+
 
 def convert_and_copy_all_files_to_tmp(dst_dir, patterns):
     """
@@ -32,7 +33,8 @@ def convert_and_copy_all_files_to_tmp(dst_dir, patterns):
         copy_and_fix_headlines(dst_dir, '%s.md' % make_pathname(pattern), 3)
 
     for group in sorted(s3_patterns.keys()):
-        copy_and_fix_headlines(dst_dir, '%s--content.md' % make_pathname(group), 2)
+        copy_and_fix_headlines(
+            dst_dir, '%s--content.md' % make_pathname(group), 2)
 
     copy_and_fix_headlines(dst_dir, 'introduction.md', 1)
     copy_and_fix_headlines(dst_dir, 'changelog.md', 2)
@@ -50,14 +52,9 @@ def create_master_file_with_all_patterns(dst_dir):
 if __name__ == "__main__":
 
     # setup argparse
-    parser = argparse.ArgumentParser(description='copy and prepare markdown files for compiling the handbook.')
+    parser = argparse.ArgumentParser(
+        description='copy and prepare markdown files for compiling the handbook.')
     parser.add_argument('--verbose', '-v', action='count')
 
     args = parser.parse_args()
     prepare_handbook(args)
-
-
-
-
-
-
