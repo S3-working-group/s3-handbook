@@ -26,19 +26,35 @@ def cmd_build(args):
 
 def cmd_export(args):
     """Export all content files to a separate folder."""
+
+    def copy_and_add_suffix(name, dst_dir):
+        shutil.copy('%s.md' % name, 
+                    os.path.join(dst_dir, '%s--original.md' % name))
+
     patterns = all_patterns()
     dst_dir = '_export'
     create_directory(dst_dir)
     for pattern in patterns:
-        shutil.copy('%s.md' % make_pathname(pattern), dst_dir)
+        copy_and_add_suffix(make_pathname(pattern), dst_dir)
 
     for group in sorted(s3_patterns.keys()):
-        shutil.copy('%s--content.md' % make_pathname(group), dst_dir)
+        copy_and_add_suffix('%s--content.md' % make_pathname(group), dst_dir)
 
-    shutil.copy('introduction.md', dst_dir)
-    shutil.copy('changelog.md', dst_dir)
-    shutil.copy('_DROPBOX_WORKFLOW.md', dst_dir)
-    shutil.copy('README.md', dst_dir)
+
+    other_files = ['introduction','changelog']
+
+    for item in other_files:
+        copy_and_add_suffix(item, dst_dir)
+
+
+    copy_plain = [
+        '_DROPBOX_WORKFLOW.md',
+        'README.md',
+        'S3-patterns-handbook.epub',
+        'S3-patterns-handbook.pdf',
+    ]
+    for item in copy_plain:
+        shutil.copy(item, dst_dir)
 
 
     # delete and re-copy images
