@@ -25,42 +25,53 @@ def cmd_build(args):
 
 
 def cmd_export(args):
-    """Export all content files to a separate folder."""
+    """Export all content files to a separate folder, optionally suffix with --originam."""
 
-    def copy_and_add_suffix(name, dst_dir):
-        shutil.copy('%s.md' % name, 
-                    os.path.join(dst_dir, '%s--original.md' % name))
-
-    patterns = all_patterns()
-    dst_dir = '_export'
-    create_directory(dst_dir)
-    for pattern in patterns:
-        copy_and_add_suffix(make_pathname(pattern), dst_dir)
-
-    for group in sorted(s3_patterns.keys()):
-        copy_and_add_suffix('%s--content.md' % make_pathname(group), dst_dir)
-
-
-    other_files = ['introduction','changelog']
-
-    for item in other_files:
-        copy_and_add_suffix(item, dst_dir)
-
-
-    copy_plain = [
+    additional_content = ['introduction','changelog']
+    artefacts = [
         '_DROPBOX_WORKFLOW.md',
         'README.md',
-        'S3-patterns-handbook.epub',
-        'S3-patterns-handbook.pdf',
     ]
-    for item in copy_plain:
+    template='%s.md'
+    patterns = all_patterns()
+    dst_dir = '_export'
+    
+
+    if agrs.dropbox == True:
+        template='%s--original.md'
+        artefacts.extend(['S3-patterns-handbook.epub',
+                           'S3-patterns-handbook.pdf',
+                            ])
+
+    # clear previous export
+    shutil.rmtree(dst_dir, ignore_errors=True)
+
+    create_directory(dst_dir)
+
+    def copy_and_add_suffix(name):
+        shutil.copy('%s.md' % name, 
+                    os.path.join(dst_dir, template % name))
+
+    # copy patterns
+    for pattern in patterns:
+        copy_and_add_suffix(make_pathname(pattern))
+
+    # copy group content
+    for group in sorted(s3_patterns.keys()):
+        copy_and_add_suffix('%s--content' % make_pathname(group))
+
+
+    # copy additional content files
+    for item in additional_content:
+        copy_and_add_suffix(item)
+
+    # copy artefacts
+    for item in artefacts:
         shutil.copy(item, dst_dir)
 
-
-    # delete and re-copy images
-    img_dest = os.path.join(dst_dir, 'img')
-    shutil.rmtree(img_dest, ignore_errors=True)
-    shutil.copytree('img', img_dest)
+    # copy images for dropbox 
+    if agrs.dropbox == True:
+        shutil.copytree('img', os.path.join(dst_dir, 'img'))
 
 
 def front_matter(fp, title=''):
@@ -162,6 +173,9 @@ if __name__ == "__main__":
 
     export = subparsers.add_parser('export',
                                    help="Export content files to share on dropbox.")
+    export.add_argument('--dropbox', action='store_true',
+                        help='Suffix files with "--original", add images and pdf/epub versions.')
+
     export.set_defaults(func=cmd_export)
 
     args = parser.parse_args()
