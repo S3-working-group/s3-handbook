@@ -25,7 +25,7 @@ def cmd_build(args):
 
 
 def cmd_export(args):
-    """Export all content files to a separate folder, optionally suffix with --originam."""
+    """Export all content files to a separate folder, optionally suffix with --original."""
 
     additional_content = ['introduction', 'changelog']
     artefacts = [
