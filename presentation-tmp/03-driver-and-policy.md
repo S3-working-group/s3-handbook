@@ -1,25 +1,6 @@
 
 ![](img/tension-driver-domain/domain-model.png)
 
----
-
-# Driver #
-
-**Definition**:  _A driver is that which motivates us into action: the current reality and the needs we associate with it._
-
-![](img/tension-driver-domain/driver-response.png)
-
----
-
-# Driver #
-
-* drivers are at the center of everything Sociocracy 3.0 
-* a driver often describes **collective motivation for a group**
-* focus on drivers fosters **alignment towards the motive** instead of towards our assumptions about the future
-* a driver clarifies the stimulus for action (and thus implies purpose)
-* all drivers are subject to regular reviews
-
----
 
 # Current Reality #
 
@@ -37,31 +18,11 @@
 
 ---
 
-# Needs #
-
-**Definition**:  _A need is a necessity related to the current reality, that if satisfied would alter that reality in a manner that eases tension._
 
 ![](img/tension-driver-domain/driver.png)
 
 ---
 
-# Needs #
-
-* needs are identified after analysis of, and in relation to, the current reality
-* needs can be identified in relation to the organization itself, its members, stakeholders, customers or environment
-* needs can be objective (physical) or subjective (psychological)
-* needs may be controversial on a social level
-	* an organization's values may help resolving controversies
-	
----
-
-# Examples of Needs #
-
-* revenue, profit, shareholder value, capital
-* customer value
-* autonomy, mastery, purpose
-* connection, collaboration, recognition
-* sustenance, happiness
 
 
 ---
