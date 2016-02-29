@@ -2,7 +2,7 @@
 title: Double Linking
 ---
 
-![](img/structural-patterns/double-link-plain.png)
+![](img/structural-patterns/double-link.png)
 
 ##Facilitate two-way flow of information and influence##
 

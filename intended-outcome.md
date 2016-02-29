@@ -4,4 +4,4 @@ title: Intended Outcome
 
 
 
-![](img/policy/outcome-and-criteria.png)
+![](img/agreements/outcome-and-criteria.png)

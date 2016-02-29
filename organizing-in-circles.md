@@ -11,13 +11,6 @@ All collaboration within an organization happens within circles.
     * Look at people gathered around delivering products or services
 * People may hold roles in more than one circle
 
-
-## From Autocracy to Nested Domains of Circles ##
-
-
-
-![](img/structure/hierarchy-domains.png)  
-
 ## Forming a New Circle ##
 
 * a circle identifies a new driver and decides that creating a new circle is the most effective response

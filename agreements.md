@@ -19,4 +19,4 @@ We respond to drivers through agreements.
 
 ## Template for Agreements
 
-![](img/policy/policy-template.png)
+![](img/agreements/agreement-template.png)

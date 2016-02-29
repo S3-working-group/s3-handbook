@@ -11,7 +11,7 @@ Proposal Forming...
 * ...fosters accountability and a sense of ownership
 
 
-![Co-Creating a Response to a Drivers](img/proposal-forming/proposal-forming.png)
+![Co-Creating a Response to a Drivers](img/agreements/proposal-forming-medium.png)
   
 ## Proposal Forming Process ##
 

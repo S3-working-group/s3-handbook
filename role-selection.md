@@ -4,7 +4,7 @@ title: Role Selection
 
 
 
-![](img/people-and-roles/elections-alt.png)
+![](img/people-and-roles/selection.png)
 
 * People avoid expressing interest before elections 
 * Nominations are made on the strength of the reason

@@ -46,7 +46,7 @@ Sociocracy 3.0 may be applied within...
 ## A Brief History of Sociocracy  From 1851 to Today ##
 
 
-![](img/general/history-new.png)
+![](img/general/history.png)
 
 
 * 1851 – Auguste Comte
@@ -132,7 +132,7 @@ Respect to the lineage, and a step forward.
 * understanding these principles is paramount to adopting and adapting Sociocracy 3.0 patterns
 *  practicing Sociocracy 3.0 helps people appreciate the essential value that these core principles bring,  both to individuals and organizations
 
-![](img/principles/s3-principles-v3a.png)
+![](img/general/s3-principles-plain.png)
 
 
 ### Principle: Empiricism ###

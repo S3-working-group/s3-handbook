@@ -41,7 +41,7 @@ Sociocracy 3.0 may be applied within...
 
 ## A Brief History of Sociocracy  From 1851 to Today ##
 
-![](img/general/history-new.png)
+![](img/general/history.png)
 
 * 1851 – Auguste Comte
     * Scientific method applied to society
@@ -123,7 +123,7 @@ Respect to the lineage, and a step forward.
 * understanding these principles is paramount to adopting and adapting Sociocracy 3.0 patterns
 *  practicing Sociocracy 3.0 helps people appreciate the essential value that these core principles bring,  both to individuals and organizations
 
-![](img/principles/s3-principles-v3a.png)
+![](img/general/s3-principles-plain.png)
 
 ### Principle: Empiricism ###
 
@@ -219,6 +219,12 @@ We respond to drivers through agreements.
     *  review dates are specific to each agreement
     *  agreements are reviewed in context to its driver
 
+![](img/tension-driver-domain/driver-agreement-improvement.png)
+
+#### Template for Agreements
+
+![](img/agreements/agreement-template.png)
+
 
 ### Circle ###
 
@@ -261,7 +267,7 @@ Consent Decision Making...
 
 #### Harvesting Objections to Capture Emergent Wisdom ####
 
-![](img/consent-decision-making/cdm-small.png)
+![](img/agreements/cdm-condensed.png)
 
 
 ### Deliverables ###
@@ -316,7 +322,7 @@ Adopting the concept of value and waste makes many tools and ideas from **lean p
 
 ##### Identifying Waste #####
 
-![](img/evolution/drivers-value-waste.png)
+![](img/workflow-and-value/drivers-value-waste.png)
 
 * waste exist in many different forms and on different levels of abstraction
     * tasks, processes, organizational structure, mental models...
@@ -332,12 +338,12 @@ Adopting the concept of value and waste makes many tools and ideas from **lean p
 
 ### Evaluation Criteria ###
 
-...
+![](img/agreements/outcome-and-criteria.png)
 
 
 ### Intended Outcome ###
 
-...
+![](img/agreements/outcome-and-criteria.png)
 
 
 ### Objections ###
@@ -385,7 +391,7 @@ Proposal Forming...
 * ...involves people in co-creating agreements
 * ...fosters accountability and a sense of ownership
 
-![Co-Creating a Response to a Drivers](img/proposal-forming/proposal-forming.png)
+![Co-Creating a Response to a Drivers](img/agreements/proposal-forming-medium.png)
 
 #### Proposal Forming Process ####
 
@@ -423,7 +429,7 @@ We consider why, how and when to respond to a stimulus, instead of defaulting to
 
 ### Strategy ###
 
-...
+![](img/drivers-and-subdrivers/driver-and-domains.png)
 
 
 ### Those Affected Decide ###
@@ -470,13 +476,13 @@ Circles meet at regular intervals to create and evolve agreements in response to
 
 **Definition**:  _A tension is the subjective experience of contradiction between reality and that which we desire or anticipate._
 
-![](img/tension-driver-domain/tension-response.png)
-
 * individuals act as sensors (nerve endings) for the organization
 * tension is experienced whenever our perception of our environment is in conflict with:
     * that which we desire or had anticipated
     * our values (and principles)
 * problems, challenges, and feelings of unease are all tensions
+
+![](img/tension-driver-domain/navigate-via-tensions.png)
 
 #### From Tension to Driver ####
 
@@ -497,7 +503,7 @@ Circles meet at regular intervals to create and evolve agreements in response to
 
 ### S3 Facilitator ###
 
-...
+![](img/circle/facilitator.png)
 
 
 ### Artful Participation ###
@@ -531,7 +537,7 @@ Circles meet at regular intervals to create and evolve agreements in response to
 
 ### Meeting Evaluation ###
 
-...
+![](img/meetings/evaluate-interactions.png)
 
 
 ### Meeting Facilitation ###
@@ -549,7 +555,7 @@ A group facilitation technique to maintain equivalence.
 
 There's  a number of ways that experienced groups can fast track certain rounds.
 
-![](img/circle/rounds-new.png)
+![](img/circle/rounds.png)
 
 
 ### Secretary ###
@@ -656,7 +662,7 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 
 #### Flow of Value and Flow of Information ####
 
-![](img/evolution/types-of-flow.png)
+![](img/workflow-and-value/types-of-flow.png)
 
 * in an effective organization, the **flow of information and influence supports the continuous flow of value**
 * alignment is achieved and maintained through continuous improvement of agreements
@@ -665,6 +671,8 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 ### Domains ###
 
 **Definition**: _A domain is the area of accountability, influence and autonomy as defined by a  driver._
+
+![](img/tension-driver-domain/nested-domains.png)
 
 
 ### Open Systems ###
@@ -681,10 +689,6 @@ All collaboration within an organization happens within circles.
 * Circles already exist in every organization
     * Look at people gathered around delivering products or services
 * People may hold roles in more than one circle
-
-#### From Autocracy to Nested Domains of Circles ####
-
-![](img/structure/hierarchy-domains.png)
 
 #### Forming a New Circle ####
 
@@ -726,6 +730,8 @@ Continuous improvement of the effectiveness of people in roles ##
 3. Full circle consents to development plan
 4. Act on the plan
 
+![](img/people-and-roles/performance-improvement-process.png)
+
 ...
 
 
@@ -755,6 +761,8 @@ Continuous improvement of the effectiveness of people in roles ##
     * updates to role description, function or driver
 4. Co-create and consent to a development plan
 
+![](img/people-and-roles/effectiveness-review.png)
+
 
 ### Role Descriptions ###
 
@@ -767,10 +775,14 @@ Continuous improvement of the effectiveness of people in roles ##
     * preferable skills, experience and qualities
     * cadence of effectiveness reviews
 
+#### Template for Role Descriptions
+
+![](img/people-and-roles/role-description-template.png)
+
 
 ### Role Selection ###
 
-![](img/people-and-roles/elections.png)
+![](img/people-and-roles/selection.png)
 
 * People avoid expressing interest before elections
 * Nominations are made on the strength of the reason
@@ -823,6 +835,8 @@ A pattern for coordination
 
 
 ### Double Linking ###
+
+![](img/structural-patterns/double-link.png)
 
 ####Facilitate two-way flow of information and influence####
 
@@ -953,6 +967,8 @@ A pattern for outsourcing shared services
 
 ### Contracting And Accountability ###
 
+![](img/circle/enter-leave-circle.png)
+
 * define the process for entering the organization
 * define default role for a new member
 * define the process for leaving an organization
@@ -962,7 +978,7 @@ A pattern for outsourcing shared services
 
 #### Connecting two circles ####
 
-![](img/structural-patterns/circles-and-links.png)
+![](img/structural-patterns/link.png)
 
 
 ### Transparent Salary ###
@@ -973,6 +989,8 @@ A pattern for outsourcing shared services
 * classic sociocracy: everyone feels gains and losses
 * consider remuneration for changing roles
 * create strategy for transitioning towards new contracts and compensation agreements
+
+![](img/circle/transparent-salary.png)
 
 
 

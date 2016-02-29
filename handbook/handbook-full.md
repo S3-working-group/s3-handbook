@@ -200,7 +200,7 @@
 
 ### Align Flow ###
 
-![](/static-images/img/evolution/types-of-flow.png)
+![](img/workflow-and-value/types-of-flow.png)
 
 ...
 

@@ -3,5 +3,4 @@ title: Strategy
 ---
 
 
-
-![](img/drivers-and-subdrivers/drivers-and-domains.png)
+![](img/drivers-and-subdrivers/driver-and-domains.png)
