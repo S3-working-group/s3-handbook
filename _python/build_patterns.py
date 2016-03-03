@@ -4,7 +4,7 @@ import argparse
 import os
 import shutil
 
-from s3_patterns import s3_patterns, all_patterns
+from s3_patterns import s3_patterns, all_patterns, groups_to_rename, patterns_to_rename
 from common import make_pathname, make_title, create_directory
 
 
@@ -152,6 +152,72 @@ def list_excluded_files(args, groups):
             _print(group, suffix)
 
 
+def cmd_update(args):
+    """Update one or more target directories by renaming patterns and pattern groups."""
+    print args
+    # rename all patterns and groups
+    for target in args.target: 
+        for root, dirs, files in os.walk(target):
+            for filename in files:
+                dummy, ext = os.path.splitext(filename)
+                if ext == '.md':
+                    match_and_rename(root, filename)
+    
+    print "*" * 80
+    print " now you need to fix all titles and then remove the prefix '--'"
+    print 
+    print "if you run this on the handbook source, remember to:"
+    
+    print " 1. build --toc"
+    print " 2. build --exluded  (for config.yml)"
+    print " 3. build --index (for build commands)"
+    print " 4. run the build command to refresh everything"
+    print " 5. build handbook and website and check everythin"
+    print " 6. commit"
+
+def match_and_rename(root, filename):
+    """Check if filename matches one of the old filenames and rename to new name.
+
+     For patterns check match for:
+     - plain filename.md
+     - --original.md
+     - --draft-*.md
+
+     For groups check match for:
+    - plain.md 
+    - '--content'
+    - '--master'
+    --'toc'
+    """
+    def rename(old_part, new_part):
+        new_name = '--%s%s' % (new_part, filename[len(old_part):])
+        print 'rename', root, filename, new_name
+
+    GROUP_TEMPLATES = ['%s.md', '%s--master.md', '%s--toc.md']
+    GROUP_PREFIX_TEMPLATES = ['%s--content']
+
+    PATTERN_TEMPLATES = ['%s.md']
+    PATTERN_PREFIX_TEMPLATES = ['%s--original', '%s--draft']
+
+    def process_class(items_to_rename, full_templates, prefix_templates):
+
+        for old_name, new_name in items_to_rename:
+            op = make_pathname(old_name)
+            np = make_pathname(new_name)
+            for t in full_templates:
+                oldname = t % op
+                if filename == oldname:
+                    rename(op, np)
+            for t in prefix_templates:
+                prefix = t % op
+                if filename.startswith(prefix):
+                    rename(op, np)
+
+    process_class(groups_to_rename, GROUP_TEMPLATES, GROUP_PREFIX_TEMPLATES)
+    process_class(patterns_to_rename, PATTERN_TEMPLATES, PATTERN_PREFIX_TEMPLATES)
+
+
+
 if __name__ == "__main__":
 
     # setup argparse
@@ -178,6 +244,13 @@ if __name__ == "__main__":
                         help='Suffix files with "--original", add images and pdf/epub versions.')
 
     export.set_defaults(func=cmd_export)
+
+    update = subparsers.add_parser('update',
+                                   help="Update filenames in one or several locations.")
+    update.add_argument('target', nargs='+',
+                        help='One or several target folders.')
+
+    update.set_defaults(func=cmd_update)
 
     args = parser.parse_args()
     args.func(args)
