@@ -1,13 +1,18 @@
 #!/usr/bin/env python
 
+
+# Groups:
+
+
+
 handbook_group_order = [
 
     "making and evolving agreements",
-    "navigation",
+    "governance",
     "effective meetings",
     "coordinating work",
     "building organizations",
-    "roles",
+    "people and roles",
     "organizational structure",
     "bringing in S3 patterns",
     "alignment",
@@ -15,7 +20,7 @@ handbook_group_order = [
 
 s3_patterns = {
     "alignment": [
-        "adopt S3 principles",
+        "adopt the seven principles",
         "agree on values",
         "bylaws",
         "contracting and accountability",
@@ -31,10 +36,8 @@ s3_patterns = {
     ],
     "building organizations": [
         "align flow",
-        "domains",
         "open systems",
-        "organizing in circles",
-        "subset drivers",
+        "organize in nested domains",
     ],
     "coordinating work": [
         "coordination meeting",
@@ -62,7 +65,7 @@ s3_patterns = {
         "consent decision making",
         "deliverables",
         "driver",
-        "evaluating decisions",
+        "evaluate agreements",
         "evaluation criteria",
         "intended outcome",
         "objections",
@@ -72,7 +75,7 @@ s3_patterns = {
         "strategy",
         "those affected decide",
     ],
-    "navigation": [
+    "governance": [
         "navigation backlog",
         "navigation meeting",
         "navigation via tensions",
@@ -90,14 +93,42 @@ s3_patterns = {
         "representative",
         "service circle",
     ],
-    "roles": [
+    "people and roles": [
         "development plan",
         "effectiveness review",
-        "role descriptions",
+        "role description",
         "role selection",
+        "role",
         "support roles",
     ],
 }
+
+
+# TODO: add the seven principles to the handbook
+
+# Renaming process: 
+# 1. upate new names in both structures above
+# 2. add renames to both structures below
+# 3. run the rename tool
+
+
+groups_to_rename = [
+
+    ('navigation', 'governance'),
+    ('roles', 'people and roles'),
+]
+
+patterns_to_rename = [
+
+    ("navigation backlog", "governance meeting"),
+    ("navigation meeting", "goverance backlog"),
+    ('adopt S3 principles', 'adopt the seven principles'),
+    ('evaluate decisions', 'evaluate agreements'),
+    ('navigating via tensions', 'navigating via tension'),
+    ('organizing in circles',  'organize in nested domains'),
+    ('role descriptions', 'role description'),
+    ('secretary', 'meeting host'),
+]
 
 
 def all_patterns():
