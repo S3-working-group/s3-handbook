@@ -341,7 +341,7 @@ Adopting the concept of value and waste makes many tools and ideas from **lean p
     * along the way we also learn how to evolve our drivers
 
 
-### Evaluating Decisions ###
+### Evaluate Agreements ###
 
 ...
 
@@ -450,15 +450,15 @@ We consider why, how and when to respond to a stimulus, instead of defaulting to
 
 ## Navigation ##
 
-Navigation is the process of creating and evolving agreements in response to drivers.
+Governance is the process of creating and evolving agreements in response to drivers.
 
 
-### Navigation Backlog ###
+### Governance Backlog ###
 
 ...
 
 
-### Navigation Meeting ###
+### Governance Meeting ###
 
 Circles meet at regular intervals to create and evolve agreements in response to drivers.
 
@@ -482,7 +482,7 @@ Circles meet at regular intervals to create and evolve agreements in response to
     * evaluation of meeting and results, future agenda items
 
 
-### Navigation Via Tensions ###
+### Navigating via tension ###
 
 **Definition**:  _A tension is the subjective experience of contradiction between reality and that which we desire or anticipate._
 
@@ -555,6 +555,11 @@ Circles meet at regular intervals to create and evolve agreements in response to
 ...
 
 
+### Meeting Host ###
+
+...
+
+
 ### Rounds ###
 
 A group facilitation technique to maintain equivalence.
@@ -566,11 +571,6 @@ A group facilitation technique to maintain equivalence.
 There's  a number of ways that experienced groups can fast track certain rounds.
 
 ![](img/circle/rounds.png)
-
-
-### Secretary ###
-
-...
 
 
 
@@ -678,44 +678,18 @@ Activities for each phase can be found at [plans-for-retrospectives.com](http://
 * alignment is achieved and maintained through continuous improvement of agreements
 
 
-### Domains ###
-
-**Definition**: _A domain is the area of accountability, influence and autonomy as defined by a  driver._
-
-![](img/tension-driver-domain/nested-domains.png)
-
-
 ### Open Systems ###
 
 ...
 
 
-### Organizing In Circles ###
-
-All collaboration within an organization happens within circles.
-
-#### Circle Structure ####
-
-* Circles already exist in every organization
-    * Look at people gathered around delivering products or services
-* People may hold roles in more than one circle
-
-#### Forming a New Circle ####
-
-* a circle identifies a new driver and decides that creating a new circle is the most effective response
-* a new circle is formed and populated
-    * either from within the organization or by recruiting from the outside
-* the new circle decides on it strategy
-* the new circle is responsible for regular review of its driver, and for dissolving itself should the driver cease to exist
-
-
-### Subset Drivers ###
+### Organize in nested domains ###
 
 ...
 
 
 
-## Roles ##
+## People and Roles ##
 
 ![](img/people-and-roles/roles.png)
 
@@ -774,7 +748,12 @@ Continuous improvement of the effectiveness of people in roles ##
 ![](img/people-and-roles/effectiveness-review.png)
 
 
-### Role Descriptions ###
+### Role ###
+
+...
+
+
+### Role Description ###
 
 * role descriptions can be created using proposal forming
 * a minimal role description contains:
@@ -942,7 +921,7 @@ A pattern for outsourcing shared services
 ...
 
 
-### Adopt S3 Principles ###
+### Adopt the Seven Principles ###
 
 * values embrace Sociocracy 3.0 principles
 * collaboration follows principles and values
@@ -1007,6 +986,10 @@ A pattern for outsourcing shared services
 # Appendix
 
 ## Changelog ##
+
+**2016-2-29**
+
+* cleaned up image folder
 
 **2016-01-28**
 

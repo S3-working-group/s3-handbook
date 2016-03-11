@@ -1,6 +1,11 @@
 # prepare handbook build
 python _python/prepare_handbook.py
 
+if [ "$?" != "0" ]; then
+	echo "---error while preparing handbook! --" 1>&2
+	exit 1
+fi
+
 # transclude all to one file 
 multimarkdown --to=mmd --output=handbook/handbook-compiled.md handbook/handbook--master.md
 multimarkdown --to=mmd --output=handbook/handbook-epub-compiled.md handbook/handbook-epub--master.md

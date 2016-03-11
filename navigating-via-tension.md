@@ -1,5 +1,5 @@
 ---
-title: Navigation Via Tensions
+title: Navigating via tension
 ---
 
 

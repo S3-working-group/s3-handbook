@@ -57,7 +57,7 @@ s3_patterns = {
         "meeting evaluation",
         "rounds",
         "S3 facilitator",
-        "secretary",
+        "meeting host",
     ],
     "making and evolving agreements": [
         "agreements",
@@ -76,9 +76,9 @@ s3_patterns = {
         "those affected decide",
     ],
     "governance": [
-        "navigation backlog",
-        "navigation meeting",
-        "navigation via tensions",
+        "governance backlog",
+        "governance meeting",
+        "navigating via tension",
     ],
     "organizational structure": [
         "backbone organization",
@@ -121,10 +121,10 @@ groups_to_rename = [
 patterns_to_rename = [
 
     ("navigation backlog", "governance meeting"),
-    ("navigation meeting", "goverance backlog"),
+    ("navigation meeting", "governance backlog"),
     ('adopt S3 principles', 'adopt the seven principles'),
-    ('evaluate decisions', 'evaluate agreements'),
-    ('navigating via tensions', 'navigating via tension'),
+    ('evaluating decisions', 'evaluate agreements'),
+    ('navigation via tensions', 'navigating via tension'),
     ('organizing in circles',  'organize in nested domains'),
     ('role descriptions', 'role description'),
     ('secretary', 'meeting host'),

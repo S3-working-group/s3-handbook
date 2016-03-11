@@ -1,7 +1,0 @@
----
-title: Evaluating Decisions
----
-
-
-
-...
