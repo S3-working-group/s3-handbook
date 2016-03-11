@@ -1,5 +1,5 @@
 ---
-title: Adopt S3 Principles
+title: Adopt the Seven Principles
 ---
 
 

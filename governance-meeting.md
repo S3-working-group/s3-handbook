@@ -1,5 +1,5 @@
 ---
-title: Navigation Meeting
+title: Governance Meeting
 ---
 
 

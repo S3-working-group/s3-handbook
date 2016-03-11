@@ -1,10 +1,10 @@
 ---
-title: Navigation
+title: Governance
 ---
 
 
 
-Navigation is the process of creating and evolving agreements in response to drivers.
+Governance is the process of creating and evolving agreements in response to drivers.
 
 
 

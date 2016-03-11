@@ -1,6 +1,7 @@
 ---
-title: Roles
+title: People and Roles
 ---
+
 
 ![](img/people-and-roles/roles.png)
 
@@ -30,3 +31,12 @@ Continuous improvement of the effectiveness of people in roles ##
 ![](img/people-and-roles/performance-improvement-process.png)
 
 ...
+
+
+* [Development Plan](development-plan.html)
+* [Effectiveness Review](effectiveness-review.html)
+* [Role Descriptions](role-descriptions.html)
+* [Role Selection](role-selection.html)
+* [Support Roles](support-roles.html)
+
+
