@@ -115,10 +115,9 @@ On OS-X, ruby and python are already installed. I suggest installing the rest of
 
 ## To Do
 
-{>>TODO: rename illustration improvement plan to development plan, add driver <<}
-{>>TODO: rename illustration governance meeting to navigation meeting <<}
-{>>TODO: update policy lifecylce for agreements <<}
-{>>TODO: identify all illustrations with policy and update <<}
+* update images to latest version of the S3 image repo
+* automate upload to Crowdin for translations
+
 
 ## Criteria and Considerations for the Technical Implementation
 
