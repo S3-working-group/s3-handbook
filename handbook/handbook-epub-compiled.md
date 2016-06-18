@@ -448,7 +448,7 @@ We consider why, how and when to respond to a stimulus, instead of defaulting to
 
 
 
-## Navigation ##
+## Governance ##
 
 Governance is the process of creating and evolving agreements in response to drivers.
 
