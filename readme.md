@@ -166,7 +166,7 @@ Updates to existing patterns are created in the dropbox copy and then merged bac
 
 ## License 
 
-This work by Bernhard Bockelbrink and James Priest is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. The exact license can be viewed at <http://creativecommons.org/licenses/by-sa/4.0/](http://creativecommons.org/licenses/by-sa/4.0/>.
+This work by Bernhard Bockelbrink and James Priest is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. The exact license can be viewed at <http://creativecommons.org/licenses/by-sa/4.0/>.
 
 [![](http://creativecommons.org/images/deed/seal.png)](http://creativecommons.org/freeworks)
 
