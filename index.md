@@ -8,20 +8,6 @@ The patterns are also available as pdf at <http://sociocracy30.org/guide>
 
 [Glossary](glossary.html)
 
-
-## Pattern Groups
-
-- [Bringing In S3](bringing-in-s3.html)
-- [Building Organizations](building-organizations.html)
-- [Co-Creation And Evolution](co-creation-and-evolution.html)
-- [Defining Agreements](defining-agreements.html)
-- [Enablers Of Co-Creation](enablers-of-co-creation.html)
-- [Focused Interactions](focused-interactions.html)
-- [Meeting Practices](meeting-practices.html)
-- [Organizational Structure](organizational-structure.html)
-- [Organizing Work](organizing-work.html)
-- [Peer Development](peer-development.html)
-
 ## Alphabetical List of All Patterns
 
 - [Adapt Patterns To Context](adapt-patterns-to-context.html)
