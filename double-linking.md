@@ -1,12 +1,13 @@
 ---
-title: Double Linking
+title: "Double Linking"
 ---
 
-![](img/structural-patterns/double-link.png)
 
-##Facilitate two-way flow of information and influence##
+![right,fit](img/structural-patterns/double-link.png)
 
-* Two interdependent circles each elect a representative to participate as full members in both circles' governance meetings
-* can be used to prevent tensions in hierarchical structures
+**Facilitate _two-way_ flow of information and influence between two groups.**
 
+Two interdependent groups each select one of their members to represent their interests in the governance decisions of the other group.
 
+-   creates equivalence between two groups
+-   can be used to draw out valuable information in hierarchical structures

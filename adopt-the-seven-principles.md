@@ -1,10 +1,14 @@
 ---
-title: Adopt the Seven Principles
+title: "Adopt The Seven Principles"
 ---
 
 
-* values embrace Sociocracy 3.0 principles
-* collaboration follows principles and values
+![inline,fit](img/framework/s3-principles-plain.png)
 
 
-![](img/collaboration-values/values-step3.png)
+![right,fit](img/collaboration-values/values-7principles.png)
+
+
+-   align collaboration with the Seven Principles
+-   adopting the Seven Principles reduces the number of explicit agreements required, and guides adaptation of S3 patterns to suit the organization's context
+-   an organization's actual values need to embrace Sociocracy 3.0 principles

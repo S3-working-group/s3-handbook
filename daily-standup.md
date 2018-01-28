@@ -1,13 +1,15 @@
 ---
-title: Daily Standup
+title: "Daily Standup"
 ---
 
 
+![right,fit](img/meetings/planning-review-standup.png)
 
-**Speed up learning and improvement.**
+**A meeting to coordinate work, facilitate learning, improve productivity and effectiveness.**
 
-* ~15 min
-* every day at the same time
-* circle gathers around the task board
-* coordination of daily work
-* adaptation of existing agreements or creation of new agreements on the spot
+-   time-boxed (usually 15 minutes)
+-   held daily at the same time
+-   the group gathers around a visible project management board/tool for:
+    -   coordination of daily work
+    -   addressing impediments/blocks
+    -   adaptation of existing agreements or creation of new agreements on the spot

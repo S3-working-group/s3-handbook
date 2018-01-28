@@ -1,13 +1,19 @@
 ---
-title: Transparent Salary
+title: "Transparent Salary"
 ---
 
 
-* transparent salaries need to be fair
-* perception of fairness is specific to organization
-* consider members and relevant stakeholders (e.g. investors)
-* classic sociocracy: everyone feels gains and losses
-* consider remuneration for changing roles
-* create strategy for transitioning towards new contracts and compensation agreements
+-   transparent salaries need to be fair
+-   fairness has several orthogonal dimensions    
+-   perception of fairness is specific to organizational context
+-   consider members and relevant stakeholders (e.g. investors)
+-   create a salary formula:
+    -   fixed: subsistence guarantee
+    -   variable: fair distribution of gains and costs
+-   consider remuneration for changing roles
+-   create strategy for transitioning towards new contracts and compensation agreements
 
-![](img/circle/transparent-salary.png)
+
+### Two Ways of Opening Salaries
+
+![inline,fit](img/process/opening-salaries.png)

@@ -1,14 +1,13 @@
 ---
-title: Rounds
+title: "Rounds"
 ---
 
 
-A group facilitation technique to maintain equivalence.
+![right,fit](img/circle/rounds.png) 
 
-1. Pick a random person to start
-    * begin with a different person each time to maintain equivalence
-2. Go around the circle, give everyone the chance to speak
+**A group facilitation technique to maintain equivalence.**
 
-There's  a number of ways that experienced groups can fast track certain rounds.
+-   go around the circle giving everyone the chance to speak
+-   begin each round with a different person, and change direction (clockwise or ccw) to bring variation to who speaks first and last, and to the order of people's contributions.
 
-![](img/circle/rounds.png) 
+Experienced groups might sometimes choose to fast-track certain rounds in S3 group processes.

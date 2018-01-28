@@ -1,7 +1,0 @@
----
-title: Coordinator Role
----
-
-
-
-...

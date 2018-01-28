@@ -1,7 +1,0 @@
----
-title: Helping Circle
----
-
-
-
-...

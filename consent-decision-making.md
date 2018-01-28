@@ -1,26 +1,19 @@
 ---
-title: Consent Decision Making
+title: "Consent Decision Making"
 ---
 
 
-* Consent is the absence of objections
-    * everyone affected by a decision can "live with it"
-    * consent is not consensus with unanimity
-* Consent is used to make and evolve all agreements in a circle
-* Objections stop proposals becoming agreements
-* Withholding objections could harm the aims of a group or organization
-* Being able to raise objections at any time means that proposals only need to be *good enough for now, safe enough to try*
-* Every agreement has a review date 
+![right,fit](img/agreements/cdm-condensed.png)
+
+**A (facilitated) group process for decision making.**
+
+-   invite objections, and integrate the wisdom they reveal, to evolve proposals or existing agreements
+-   withholding objections can harm the objectives of a group or organization
+-   unresolved objections prevent proposals from becoming agreements
+-   proposals only need to be *good enough for now and safe enough to try* until the next review
 
 
-Consent Decision Making...
+### Implicit Contract of Consent
 
-* is a facilitated decision making process
-* deliberately harvests reasoned objections in order to integrate the wisdom they contain in proposals or existing agreements
-* helps balance equivalence and effectiveness
-* experienced groups can move quickly through the stages of Consent Decision Making 
-
-
-## Harvesting Objections to Capture Emergent Wisdom ##
-
-![](img/agreements/cdm-condensed.png)
+-   In the absence of objections against an agreement, I intend to follow through on the agreement to the best of my ability.
+-   I agree to share objections as I become aware of them.
